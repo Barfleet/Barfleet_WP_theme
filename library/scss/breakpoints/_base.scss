@@ -21,9 +21,7 @@ body {
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $bg-color;
-	background-image: url("../images/barfleet_main_bg.jpg");
 	background-repeat: no-repeat;
-	background-position: center top;
 	background-attachment: fixed;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -158,10 +156,16 @@ HEADER STYLES
 
 .header {
 	background-color: $black;
+	position: relative;
+	width: 100%;
 }
 
 	#logo {
-		margin: 0.75em 0;
+		background-position: center top;
+		background-repeat: no-repeat;
+		margin: 0 0;
+		position: fixed;
+		width: 100%;
 
 		a {
 			color: $white;

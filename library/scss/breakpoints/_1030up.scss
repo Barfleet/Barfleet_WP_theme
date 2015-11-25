@@ -9,6 +9,16 @@ be seen on the Desktop.
 
 ******************************************************************/
 
+body {
+	background-image: url("../images/barfleet_main_bg.jpg");
+	background-position: center top;
+}
+
 .wrap {
   width: 1040px;
+}
+
+#logo {
+	background-image: url("../images/barfleet_header_1030.jpg");
+	height: 180px;
 }

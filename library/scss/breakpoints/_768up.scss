@@ -17,7 +17,10 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
 
-body {}
+body {
+	background-image: url("../images/barfleet_main_bg.jpg");
+	background-position: left top;
+}
 
 /*********************
 LAYOUT & GRID STYLES
@@ -31,9 +34,18 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+	position: relative;
+	width: 100%;
+	.wrap {
+		margin: 0;
+	}
+}
 
-	#logo {}
+#logo {
+	background-image: url("../images/barfleet_header_768.jpg");
+	height: 135px;
+}
 
 /*********************
 NAVIGATION STYLES

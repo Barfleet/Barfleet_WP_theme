@@ -1223,9 +1223,7 @@ body {
   line-height: 1.5;
   color: #fff;
   background-color: #091031;
-  background-image: url("../images/barfleet_main_bg.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -1334,10 +1332,16 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #323944; }
+  background-color: #323944;
+  position: relative;
+  width: 100%; }
 
 #logo {
-  margin: 0.75em 0; }
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin: 0 0;
+  position: fixed;
+  width: 100%; }
   #logo a {
     color: #fff; }
 
@@ -1753,6 +1757,9 @@ You can't use @extend within media queries
 anymore, so just be aware that if you drop
 them in here, they won't work.
 */
+  #logo {
+    background-image: url("../images/barfleet_header_480.jpg");
+    height: 82px; }
   /*********************
 NAVIGATION STYLES
 *********************/
@@ -1825,6 +1832,9 @@ come into play. Have fun!
   /*********************
 GENERAL STYLES
 *********************/
+  body {
+    background-image: url("../images/barfleet_main_bg.jpg");
+    background-position: left top; }
   /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -1833,6 +1843,14 @@ LAYOUT & GRID STYLES
   /*********************
 HEADER STYLES
 *********************/
+  .header {
+    position: relative;
+    width: 100%; }
+    .header .wrap {
+      margin: 0; }
+  #logo {
+    background-image: url("../images/barfleet_header_768.jpg");
+    height: 135px; }
   /*********************
 NAVIGATION STYLES
 *********************/
@@ -1955,13 +1973,34 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+  body {
+    background-image: url("../images/barfleet_main_bg.jpg");
+    background-position: center top; }
   .wrap {
-    width: 1040px; } }
+    width: 1040px; }
+  #logo {
+    background-image: url("../images/barfleet_header_1030.jpg");
+    height: 180px; } }
 
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 *********************/
+@media only screen and (min-width: 1240px) {
+  /******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Super Large Monitor Stylesheet
+
+You can add some advanced styles here if you like. This kicks in
+on larger screens.
+
+******************************************************************/
+  #logo {
+    background-image: url("../images/barfleet_header_1240.jpg");
+    height: 208px; } }
+
 /*********************
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
