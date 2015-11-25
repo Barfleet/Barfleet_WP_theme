@@ -21,8 +21,12 @@ body {
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $bg-color;
-  	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
+	background-image: url("/library/images/barfleet_main_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /********************
