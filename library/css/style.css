@@ -1223,7 +1223,7 @@ body {
   line-height: 1.5;
   color: #fff;
   background-color: #091031;
-  background-image: url("/library/images/barfleet_main_bg.jpg");
+  background-image: url("../images/barfleet_main_bg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -1388,7 +1388,6 @@ POSTS & CONTENT STYLES
   margin-top: 1.5em; }
 
 .hentry {
-  background-color: #fff;
   border-radius: 3px;
   margin-bottom: 1.5em;
   border: 1px solid #ccc; }
