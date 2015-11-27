@@ -22,14 +22,48 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 
+.header {
+	height: 82px;
+}
+
+#inner-header {
+	background-image: url("../images/barfleet_header_bg_481.png");
+	height: 82px;
+}
+
 #logo {
-	background-image: url("../images/barfleet_header_480.jpg");
+	background-image: url("../images/barfleet_header_481.png");
 	height: 82px;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
+
+#header-nav {
+	height: 22px;
+	width: 456px;
+	#inner-nav {
+		height: 22px;
+	}
+	#menu-primary {
+		margin: 0 6px;
+		width: 370px;
+		font-size: 0.5em;
+		a {
+			padding: 3px;
+			&:after {
+				left: 3px;
+			}
+		}
+	}
+}
+
+.nav-lcars {
+	height: 20px;
+	width: 33px;
+}
+
 
 .nav {}
 

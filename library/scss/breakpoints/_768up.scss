@@ -35,21 +35,46 @@ HEADER STYLES
 *********************/
 
 .header {
-	position: relative;
-	width: 100%;
-	.wrap {
-		margin: 0;
-	}
+	height: 135px;
+}
+
+#inner-header {
+	background-image: url("../images/barfleet_header_bg_768.png");
+	height: 135px;
 }
 
 #logo {
-	background-image: url("../images/barfleet_header_768.jpg");
+	background-image: url("../images/barfleet_header_768.png");
 	height: 135px;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
+
+#header-nav {
+	height: 33px;
+	width: 750px;
+	#inner-nav {
+		height: 33px;
+	}
+	#menu-primary {
+		margin: 0 10px;
+		width: 614px;
+		font-size: 0.78em;
+		a {
+			padding: 5px;
+			&:after {
+				left: 5px;
+			}
+		}
+	}
+}
+
+.nav-lcars {
+	height: 31px;
+	width: 54px;
+}
 
 .nav {
 	border: 0;

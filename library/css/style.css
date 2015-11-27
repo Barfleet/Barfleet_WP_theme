@@ -479,30 +479,37 @@ http://alistapart.com/column/responsive-typography-is-a-physical-discipline
 FONT FACE (IN YOUR FACE)
 *********************/
 /*  To embed your own fonts, use this syntax
-  and place your fonts inside the
-  library/fonts folder. For more information
-  on embedding fonts, go to:
-  http://www.fontsquirrel.com/
-  Be sure to remove the comment brackets.
+	and place your fonts inside the
+	library/fonts folder. For more information
+	on embedding fonts, go to:
+	http://www.fontsquirrel.com/
+	Be sure to remove the comment brackets.
 */
 /*  @font-face {
-      font-family: 'Font Name';
-      src: url('library/fonts/font-name.eot');
-      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
-             url('library/fonts/font-name.woff') format('woff'),
-             url('library/fonts/font-name.ttf') format('truetype'),
-             url('library/fonts/font-name.svg#font-name') format('svg');
-      font-weight: normal;
-      font-style: normal;
-  }
+			font-family: 'Font Name';
+			src: url('library/fonts/font-name.eot');
+			src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
+						 url('library/fonts/font-name.woff') format('woff'),
+						 url('library/fonts/font-name.ttf') format('truetype'),
+						 url('library/fonts/font-name.svg#font-name') format('svg');
+			font-weight: normal;
+			font-style: normal;
+	}
 */
+@font-face {
+  font-family: 'TrekDS9';
+  src: url("library/fonts/Trek-DS9-Credits-Text.eot");
+  src: url("library/fonts/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("library/fonts/Trek-DS9-Credits-Text.woff") format("woff"), url("library/fonts/Trek-DS9-Credits-Text.ttf") format("truetype"), url("library/fonts/Trek-DS9-Credits-Text.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*
 The following is based of Typebase:
 https://github.com/devinhunt/typebase.css
 I've edited it a bit, but it's a nice starting point.
 */
 /*
- i imported this one in the functions file so bones would look sweet.
+ I imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
 /*
@@ -875,7 +882,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 .blue-btn, .comment-reply-link, #submit {
   display: inline-block;
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
   font-size: 0.9em;
@@ -957,7 +964,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "TrekDS9", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #eaedf2;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
@@ -1218,13 +1225,15 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "TrekDS9", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #fff;
   background-color: #091031;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1332,17 +1341,30 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #323944;
   position: relative;
+  height: 60px;
   width: 100%; }
+  .header #inner-header {
+    background-color: #091031;
+    background-image: url("../images/barfleet_header_bg_480.png");
+    background-repeat: repeat-x;
+    height: 60px;
+    position: fixed; }
+  .header .wrap {
+    margin: 0;
+    width: 100%; }
 
 #logo {
+  background-image: url("../images/barfleet_header_480.png");
   background-position: center top;
   background-repeat: no-repeat;
+  height: 60px;
   margin: 0 0;
   position: fixed;
   width: 100%; }
   #logo a {
+    width: 100%;
+    display: none;
     color: #fff; }
 
 /*********************
@@ -1355,6 +1377,63 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+#header-nav {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: 16px;
+  width: 334px; }
+  #header-nav #inner-nav {
+    height: 16px;
+    position: fixed; }
+  #header-nav #menu-primary {
+    border: 1px solid #191b1f;
+    display: inline-block;
+    margin: 0 2px;
+    width: 274px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
+    background: #222529;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #222529 0%, #191b1f 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #222529 0%, #191b1f 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #222529 0%, #191b1f 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 );
+    /* IE6-9 */
+    font-size: 0.28em; }
+    #header-nav #menu-primary li {
+      display: inline-block; }
+    #header-nav #menu-primary a {
+      padding: 2px; }
+      #header-nav #menu-primary a:hover, #header-nav #menu-primary a:active {
+        text-decoration: none;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7090ca+0,7090ca+100&amp;0+80,0.73+100 */
+        background: -moz-linear-gradient(top, rgba(112, 144, 202, 0) 0%, rgba(112, 144, 202, 0) 80%, rgba(112, 144, 202, 0.73) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(112, 144, 202, 0) 0%, rgba(112, 144, 202, 0) 80%, rgba(112, 144, 202, 0.73) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(112, 144, 202, 0) 0%, rgba(112, 144, 202, 0) 80%, rgba(112, 144, 202, 0.73) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007090ca', endColorstr='#ba7090ca',GradientType=0 );
+        /* IE6-9 */ }
+      #header-nav #menu-primary a:after {
+        content: "";
+        width: 0;
+        height: 1.0em;
+        left: 2px;
+        position: relative;
+        border-right: 1px solid #000; }
+
+.nav-lcars {
+  border: 1px solid #3558f8;
+  background-color: #ffdac1;
+  display: inline-block;
+  opacity: 0.25;
+  height: 14px;
+  width: 24px; }
+
 .nav {
   border-bottom: 0;
   margin: 0;
@@ -1757,12 +1836,33 @@ You can't use @extend within media queries
 anymore, so just be aware that if you drop
 them in here, they won't work.
 */
+  .header {
+    height: 82px; }
+  #inner-header {
+    background-image: url("../images/barfleet_header_bg_481.png");
+    height: 82px; }
   #logo {
-    background-image: url("../images/barfleet_header_480.jpg");
+    background-image: url("../images/barfleet_header_481.png");
     height: 82px; }
   /*********************
 NAVIGATION STYLES
 *********************/
+  #header-nav {
+    height: 22px;
+    width: 456px; }
+    #header-nav #inner-nav {
+      height: 22px; }
+    #header-nav #menu-primary {
+      margin: 0 6px;
+      width: 370px;
+      font-size: 0.5em; }
+      #header-nav #menu-primary a {
+        padding: 3px; }
+        #header-nav #menu-primary a:after {
+          left: 3px; }
+  .nav-lcars {
+    height: 20px;
+    width: 33px; }
   /* .menu is clearfixed inside mixins.scss */
   .menu {
     /* end .menu ul */ }
@@ -1844,16 +1944,32 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
   .header {
-    position: relative;
-    width: 100%; }
-    .header .wrap {
-      margin: 0; }
+    height: 135px; }
+  #inner-header {
+    background-image: url("../images/barfleet_header_bg_768.png");
+    height: 135px; }
   #logo {
-    background-image: url("../images/barfleet_header_768.jpg");
+    background-image: url("../images/barfleet_header_768.png");
     height: 135px; }
   /*********************
 NAVIGATION STYLES
 *********************/
+  #header-nav {
+    height: 33px;
+    width: 750px; }
+    #header-nav #inner-nav {
+      height: 33px; }
+    #header-nav #menu-primary {
+      margin: 0 10px;
+      width: 614px;
+      font-size: 0.78em; }
+      #header-nav #menu-primary a {
+        padding: 5px; }
+        #header-nav #menu-primary a:after {
+          left: 5px; }
+  .nav-lcars {
+    height: 31px;
+    width: 54px; }
   .nav {
     border: 0;
     /* end .menu ul li */
@@ -1978,9 +2094,30 @@ be seen on the Desktop.
     background-position: center top; }
   .wrap {
     width: 1040px; }
+  .header {
+    height: 180px; }
+  #inner-header {
+    background-image: url("../images/barfleet_header_bg_1030.png");
+    height: 180px; }
   #logo {
-    background-image: url("../images/barfleet_header_1030.jpg");
-    height: 180px; } }
+    background-image: url("../images/barfleet_header_1030.png");
+    height: 180px; }
+  #header-nav {
+    height: 42px;
+    width: 1000px; }
+    #header-nav #inner-nav {
+      height: 42px; }
+    #header-nav #menu-primary {
+      margin: 0 14px;
+      width: 820px;
+      font-size: 1.05em; }
+      #header-nav #menu-primary a {
+        padding: 7px; }
+        #header-nav #menu-primary a:after {
+          left: 7px; }
+  .nav-lcars {
+    height: 40px;
+    width: 72px; } }
 
 /*********************
 LARGE VIEWING SIZE
@@ -1997,9 +2134,30 @@ You can add some advanced styles here if you like. This kicks in
 on larger screens.
 
 ******************************************************************/
+  .header {
+    height: 208px; }
+  #inner-header {
+    background-image: url("../images/barfleet_header_bg_1240.png");
+    height: 208px; }
   #logo {
-    background-image: url("../images/barfleet_header_1240.jpg");
-    height: 208px; } }
+    background-image: url("../images/barfleet_header_1240.png");
+    height: 208px; }
+  #header-nav {
+    height: 50px;
+    width: 1156px; }
+    #header-nav #inner-nav {
+      height: 50px; }
+    #header-nav #menu-primary {
+      margin: 0 16px;
+      width: 950px;
+      font-size: 1.05em; }
+      #header-nav #menu-primary a {
+        padding: 10px; }
+        #header-nav #menu-primary a:after {
+          left: 10px; }
+  .nav-lcars {
+    height: 48px;
+    width: 83px; } }
 
 /*********************
 RETINA (2x RESOLUTION DEVICES)

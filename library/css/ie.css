@@ -59,30 +59,37 @@ http://alistapart.com/column/responsive-typography-is-a-physical-discipline
 FONT FACE (IN YOUR FACE)
 *********************/
 /*  To embed your own fonts, use this syntax
-  and place your fonts inside the
-  library/fonts folder. For more information
-  on embedding fonts, go to:
-  http://www.fontsquirrel.com/
-  Be sure to remove the comment brackets.
+	and place your fonts inside the
+	library/fonts folder. For more information
+	on embedding fonts, go to:
+	http://www.fontsquirrel.com/
+	Be sure to remove the comment brackets.
 */
 /*  @font-face {
-      font-family: 'Font Name';
-      src: url('library/fonts/font-name.eot');
-      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
-             url('library/fonts/font-name.woff') format('woff'),
-             url('library/fonts/font-name.ttf') format('truetype'),
-             url('library/fonts/font-name.svg#font-name') format('svg');
-      font-weight: normal;
-      font-style: normal;
-  }
+			font-family: 'Font Name';
+			src: url('library/fonts/font-name.eot');
+			src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
+						 url('library/fonts/font-name.woff') format('woff'),
+						 url('library/fonts/font-name.ttf') format('truetype'),
+						 url('library/fonts/font-name.svg#font-name') format('svg');
+			font-weight: normal;
+			font-style: normal;
+	}
 */
+@font-face {
+  font-family: 'TrekDS9';
+  src: url("library/fonts/Trek-DS9-Credits-Text.eot");
+  src: url("library/fonts/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("library/fonts/Trek-DS9-Credits-Text.woff") format("woff"), url("library/fonts/Trek-DS9-Credits-Text.ttf") format("truetype"), url("library/fonts/Trek-DS9-Credits-Text.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*
 The following is based of Typebase:
 https://github.com/devinhunt/typebase.css
 I've edited it a bit, but it's a nice starting point.
 */
 /*
- i imported this one in the functions file so bones would look sweet.
+ I imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
 /*
@@ -183,13 +190,38 @@ You can't use @extend within media queries
 anymore, so just be aware that if you drop
 them in here, they won't work.
 */
+.header {
+  height: 82px; }
+
+#inner-header {
+  background-image: url("../images/barfleet_header_bg_481.png");
+  height: 82px; }
+
 #logo {
-  background-image: url("../images/barfleet_header_480.jpg");
+  background-image: url("../images/barfleet_header_481.png");
   height: 82px; }
 
 /*********************
 NAVIGATION STYLES
 *********************/
+#header-nav {
+  height: 22px;
+  width: 456px; }
+  #header-nav #inner-nav {
+    height: 22px; }
+  #header-nav #menu-primary {
+    margin: 0 6px;
+    width: 370px;
+    font-size: 0.5em; }
+    #header-nav #menu-primary a {
+      padding: 3px; }
+      #header-nav #menu-primary a:after {
+        left: 3px; }
+
+.nav-lcars {
+  height: 20px;
+  width: 33px; }
+
 /* .menu is clearfixed inside mixins.scss */
 .menu {
   /* end .menu ul */ }
@@ -267,18 +299,37 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 .header {
-  position: relative;
-  width: 100%; }
-  .header .wrap {
-    margin: 0; }
+  height: 135px; }
+
+#inner-header {
+  background-image: url("../images/barfleet_header_bg_768.png");
+  height: 135px; }
 
 #logo {
-  background-image: url("../images/barfleet_header_768.jpg");
+  background-image: url("../images/barfleet_header_768.png");
   height: 135px; }
 
 /*********************
 NAVIGATION STYLES
 *********************/
+#header-nav {
+  height: 33px;
+  width: 750px; }
+  #header-nav #inner-nav {
+    height: 33px; }
+  #header-nav #menu-primary {
+    margin: 0 10px;
+    width: 614px;
+    font-size: 0.78em; }
+    #header-nav #menu-primary a {
+      padding: 5px; }
+      #header-nav #menu-primary a:after {
+        left: 5px; }
+
+.nav-lcars {
+  height: 31px;
+  width: 54px; }
+
 .nav {
   border: 0;
   /* end .menu ul li */
@@ -402,9 +453,34 @@ body {
 .wrap {
   width: 1040px; }
 
-#logo {
-  background-image: url("../images/barfleet_header_1030.jpg");
+.header {
   height: 180px; }
+
+#inner-header {
+  background-image: url("../images/barfleet_header_bg_1030.png");
+  height: 180px; }
+
+#logo {
+  background-image: url("../images/barfleet_header_1030.png");
+  height: 180px; }
+
+#header-nav {
+  height: 42px;
+  width: 1000px; }
+  #header-nav #inner-nav {
+    height: 42px; }
+  #header-nav #menu-primary {
+    margin: 0 14px;
+    width: 820px;
+    font-size: 1.05em; }
+    #header-nav #menu-primary a {
+      padding: 7px; }
+      #header-nav #menu-primary a:after {
+        left: 7px; }
+
+.nav-lcars {
+  height: 40px;
+  width: 72px; }
 
 /*
 you can call the larger styles if you want, but there's really no need

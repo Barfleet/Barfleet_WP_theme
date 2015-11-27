@@ -23,6 +23,8 @@ body {
 	background-color: $bg-color;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -155,22 +157,39 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
 	position: relative;
+	height: 60px;
 	width: 100%;
+
+	#inner-header {
+		background-color: $bg-color;
+		background-image: url("../images/barfleet_header_bg_480.png");
+		background-repeat: repeat-x;
+		height: 60px;
+		position: fixed;
+	}
+
+	.wrap {
+		margin: 0;
+		width: 100%;
+	}
 }
 
-	#logo {
-		background-position: center top;
-		background-repeat: no-repeat;
-		margin: 0 0;
-		position: fixed;
-		width: 100%;
+#logo {
+	background-image: url("../images/barfleet_header_480.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 60px;
+	margin: 0 0;
+	position: fixed;
+	width: 100%;
 
-		a {
-			color: $white;
-		}
+	a {
+		width: 100%;
+		display: none;
+		color: $white;
 	}
+}
 
 /*********************
 NAVIGATION STYLES
@@ -183,6 +202,64 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+
+#header-nav {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	height: 16px;
+	width: 334px;
+
+	#inner-nav {
+		height: 16px;
+		position: fixed;
+	}
+
+	#menu-primary {
+		border: 1px solid #191b1f;
+		display: inline-block;
+		margin: 0 2px;
+		width: 274px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
+		background: rgb(34,37,41); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(34,37,41,1) 0%, rgba(25,27,31,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(34,37,41,1) 0%,rgba(25,27,31,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(34,37,41,1) 0%,rgba(25,27,31,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 ); /* IE6-9 */
+		font-size: 0.28em;
+		li {
+			display: inline-block;
+		}
+		a {
+			padding: 2px;
+			&:hover, &:active {
+				text-decoration: none;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7090ca+0,7090ca+100&amp;0+80,0.73+100 */
+				background: -moz-linear-gradient(top,  rgba(112,144,202,0) 0%, rgba(112,144,202,0) 80%, rgba(112,144,202,0.73) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  rgba(112,144,202,0) 0%,rgba(112,144,202,0) 80%,rgba(112,144,202,0.73) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  rgba(112,144,202,0) 0%,rgba(112,144,202,0) 80%,rgba(112,144,202,0.73) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007090ca', endColorstr='#ba7090ca',GradientType=0 ); /* IE6-9 */
+			}
+			&:after {
+				content: "";
+				width: 0;
+				height: 1.0em;
+				left: 2px;
+				position: relative;
+				border-right: 1px solid #000;
+			}
+		}
+	}
+}
+
+.nav-lcars {
+	border: 1px solid #3558f8;
+	background-color: #ffdac1;
+	display: inline-block;
+	opacity: 0.25;
+	height: 14px;
+	width: 24px;
+}
 
 .nav {
 	border-bottom: 0;

@@ -9,7 +9,40 @@ on larger screens.
 
 ******************************************************************/
 
-#logo {
-	background-image: url("../images/barfleet_header_1240.jpg");
+.header {
 	height: 208px;
+}
+
+#inner-header {
+	background-image: url("../images/barfleet_header_bg_1240.png");
+	height: 208px;
+}
+
+#logo {
+	background-image: url("../images/barfleet_header_1240.png");
+	height: 208px;
+}
+
+#header-nav {
+	height: 50px;
+	width: 1156px;
+	#inner-nav {
+		height: 50px;
+	}
+	#menu-primary {
+		margin: 0 16px;
+		width: 950px;
+		font-size: 1.05em;
+		a {
+			padding: 10px;
+			&:after {
+				left: 10px;
+			}
+		}
+	}
+}
+
+.nav-lcars {
+	height: 48px;
+	width: 83px;
 }

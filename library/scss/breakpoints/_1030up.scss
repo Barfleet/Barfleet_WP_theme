@@ -15,10 +15,43 @@ body {
 }
 
 .wrap {
-  width: 1040px;
+	width: 1040px;
+}
+
+.header {
+	height: 180px;
+}
+
+#inner-header {
+	background-image: url("../images/barfleet_header_bg_1030.png");
+	height: 180px;
 }
 
 #logo {
-	background-image: url("../images/barfleet_header_1030.jpg");
+	background-image: url("../images/barfleet_header_1030.png");
 	height: 180px;
+}
+
+#header-nav {
+	height: 42px;
+	width: 1000px;
+	#inner-nav {
+		height: 42px;
+	}
+	#menu-primary {
+		margin: 0 14px;
+		width: 820px;
+		font-size: 1.05em;
+		a {
+			padding: 7px;
+			&:after {
+				left: 7px;
+			}
+		}
+	}
+}
+
+.nav-lcars {
+	height: 40px;
+	width: 72px;
 }
