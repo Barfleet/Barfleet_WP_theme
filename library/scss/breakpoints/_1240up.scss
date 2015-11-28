@@ -9,40 +9,53 @@ on larger screens.
 
 ******************************************************************/
 
+.wrap {
+	width: $x1240width;
+}
+
 .header {
-	height: 208px;
+	height: $x1240headerheight;
 }
 
 #inner-header {
 	background-image: url("../images/barfleet_header_bg_1240.png");
-	height: 208px;
+	height: $x1240headerheight;
 }
 
 #logo {
 	background-image: url("../images/barfleet_header_1240.png");
-	height: 208px;
+	height: $x1240headerheight;
 }
 
 #header-nav {
-	height: 50px;
-	width: 1156px;
+	height: $x1240navheight;
+	width: $x1240width;
 	#inner-nav {
-		height: 50px;
+		height: $x1240navheight;
 	}
 	#menu-primary {
-		margin: 0 16px;
-		width: 950px;
+		margin: 0 $x1240navmargin;
+		width: $x1240innerwidth;
 		font-size: 1.05em;
 		a {
-			padding: 10px;
+			padding: ($x1240navmargin / 2);
 			&:after {
-				left: 10px;
+				left: ($x1240navmargin / 2);
 			}
 		}
 	}
 }
 
 .nav-lcars {
-	height: 48px;
-	width: 83px;
+	height: ($x1240navheight - 2);
+	width: $x1240lcarswidth;
+}
+#content {
+	width: $x1240width;
+}
+#inner-content {
+	width: $x1240innerwidth;
+}
+.content-lcars {
+	width: $x1240lcarswidth;
 }

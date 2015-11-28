@@ -22,18 +22,30 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	width: $x481width;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
 .header {
-	height: 82px;
+	height: $x481headerheight;
 }
 
 #inner-header {
 	background-image: url("../images/barfleet_header_bg_481.png");
-	height: 82px;
+	height: $x481headerheight;
 }
 
 #logo {
 	background-image: url("../images/barfleet_header_481.png");
-	height: 82px;
+	height: $x481headerheight;
 }
 
 /*********************
@@ -41,29 +53,37 @@ NAVIGATION STYLES
 *********************/
 
 #header-nav {
-	height: 22px;
-	width: 456px;
+	height: $x481navheight;
+	width: $x481width;
 	#inner-nav {
-		height: 22px;
+		height: $x481navheight;
 	}
 	#menu-primary {
-		margin: 0 6px;
-		width: 370px;
+		margin: 0 $x481navmargin;
+		width: $x481innerwidth;
 		font-size: 0.5em;
 		a {
-			padding: 3px;
+			padding: ($x481navmargin / 2);
 			&:after {
-				left: 3px;
+				left: ($x481navmargin / 2);
 			}
 		}
 	}
 }
 
 .nav-lcars {
-	height: 20px;
-	width: 33px;
+	height: ($x481navheight - 2);
+	width: $x481lcarswidth;
 }
-
+#content {
+	width: $x481width;
+}
+#inner-content {
+	width: $x481innerwidth;
+}
+.content-lcars {
+	width: $x481lcarswidth;
+}
 
 .nav {}
 

@@ -15,6 +15,9 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 
+html, #container {
+	height: 100%;
+}
 body {
 	font-family: $lato;
 	font-size: 100%;
@@ -27,6 +30,7 @@ body {
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
 }
 
 /********************
@@ -75,7 +79,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 96%;
+	// width: 96%;
 	margin: 0 auto;
 }
 
@@ -158,14 +162,15 @@ HEADER STYLES
 
 .header {
 	position: relative;
-	height: 60px;
+	height: $x480headerheight;
 	width: 100%;
+	z-index: 99;
 
 	#inner-header {
 		background-color: $bg-color;
 		background-image: url("../images/barfleet_header_bg_480.png");
 		background-repeat: repeat-x;
-		height: 60px;
+		height: $x480headerheight;
 		position: fixed;
 	}
 
@@ -179,7 +184,7 @@ HEADER STYLES
 	background-image: url("../images/barfleet_header_480.png");
 	background-position: center top;
 	background-repeat: no-repeat;
-	height: 60px;
+	height: $x480headerheight;
 	margin: 0 0;
 	position: fixed;
 	width: 100%;
@@ -207,19 +212,20 @@ and more scalable.
 	display: block;
 	position: relative;
 	margin: 0 auto;
-	height: 16px;
-	width: 334px;
+	height: $x480navheight;
+	width: $x480width;
+	z-index: 98;
 
 	#inner-nav {
-		height: 16px;
+		height: $x480navheight;
 		position: fixed;
 	}
 
 	#menu-primary {
 		border: 1px solid #191b1f;
 		display: inline-block;
-		margin: 0 2px;
-		width: 274px;
+		margin: 0 $x480navmargin;
+		width: $x480innerwidth;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
 		background: rgb(34,37,41); /* Old browsers */
 		background: -moz-linear-gradient(top,  rgba(34,37,41,1) 0%, rgba(25,27,31,1) 100%); /* FF3.6-15 */
@@ -231,7 +237,7 @@ and more scalable.
 			display: inline-block;
 		}
 		a {
-			padding: 2px;
+			padding: ($x480navmargin / 2);
 			&:hover, &:active {
 				text-decoration: none;
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7090ca+0,7090ca+100&amp;0+80,0.73+100 */
@@ -244,7 +250,7 @@ and more scalable.
 				content: "";
 				width: 0;
 				height: 1.0em;
-				left: 2px;
+				left: ($x480navmargin / 2);
 				position: relative;
 				border-right: 1px solid #000;
 			}
@@ -257,8 +263,8 @@ and more scalable.
 	background-color: #ffdac1;
 	display: inline-block;
 	opacity: 0.25;
-	height: 14px;
-	width: 24px;
+	height: ($x480navheight - 2);
+	width: $x480lcarswidth;
 }
 
 .nav {
@@ -337,7 +343,34 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 1.5em;
+	margin: 0.25em auto;
+	height: auto;
+	position: relative;
+	width: $x480width;
+}
+#inner-content {
+	position: relative;
+	height: auto;
+	width: $x480innerwidth;
+}
+
+.content-lcars {
+	border: 1px solid #3558f8;
+	background-color: #203588;
+	display: inline-block;
+	float: left;
+	opacity: 0.42;
+	position: absolute;
+	height: 100%;
+	width: $x480lcarswidth;
+}
+.lcars-left {
+	top: 0;
+	left: 0;
+}
+.lcars-right {
+	top: 0;
+	right: 0;
 }
 
 		.hentry {

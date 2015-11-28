@@ -15,43 +15,52 @@ body {
 }
 
 .wrap {
-	width: 1040px;
+	width: $x1030width;
 }
 
 .header {
-	height: 180px;
+	height: $x1030headerheight;
 }
 
 #inner-header {
 	background-image: url("../images/barfleet_header_bg_1030.png");
-	height: 180px;
+	height: $x1030headerheight;
 }
 
 #logo {
 	background-image: url("../images/barfleet_header_1030.png");
-	height: 180px;
+	height: $x1030headerheight;
 }
 
 #header-nav {
-	height: 42px;
-	width: 1000px;
+	height: $x1030navheight;
+	width: $x1030width;
 	#inner-nav {
-		height: 42px;
+		height: $x1030navheight;
 	}
 	#menu-primary {
-		margin: 0 14px;
-		width: 820px;
+		margin: 0 $x1030navmargin;
+		width: $x1030innerwidth;
 		font-size: 1.05em;
 		a {
-			padding: 7px;
+			padding: ($x1030navmargin / 2);
 			&:after {
-				left: 7px;
+				left: ($x1030navmargin / 2);
 			}
 		}
 	}
 }
 
 .nav-lcars {
-	height: 40px;
-	width: 72px;
+	height: ($x1030navheight - 2);
+	width: $x1030lcarswidth;
+}
+#content {
+	width: $x1030width;
+}
+#inner-content {
+	width: $x1030innerwidth;
+}
+.content-lcars {
+	width: $x1030lcarswidth;
 }

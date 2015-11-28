@@ -39,6 +39,9 @@ Here's a great tutorial on how to
 use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
+/*********************
+Width & Height Vars
+*********************/
 /******************************************************************
 Site Name:
 Author:
@@ -190,6 +193,15 @@ You can't use @extend within media queries
 anymore, so just be aware that if you drop
 them in here, they won't work.
 */
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+.wrap {
+  width: 456px; }
+
+/*********************
+HEADER STYLES
+*********************/
 .header {
   height: 82px; }
 
@@ -220,6 +232,15 @@ NAVIGATION STYLES
 
 .nav-lcars {
   height: 20px;
+  width: 33px; }
+
+#content {
+  width: 456px; }
+
+#inner-content {
+  width: 370px; }
+
+.content-lcars {
   width: 33px; }
 
 /* .menu is clearfixed inside mixins.scss */
@@ -293,7 +314,7 @@ body {
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 760px; }
+  width: 750px; }
 
 /*********************
 HEADER STYLES
@@ -328,6 +349,15 @@ NAVIGATION STYLES
 
 .nav-lcars {
   height: 31px;
+  width: 54px; }
+
+#content {
+  width: 750px; }
+
+#inner-content {
+  width: 614px; }
+
+.content-lcars {
   width: 54px; }
 
 .nav {
@@ -451,7 +481,7 @@ body {
   background-position: center top; }
 
 .wrap {
-  width: 1040px; }
+  width: 1000px; }
 
 .header {
   height: 180px; }
@@ -480,6 +510,15 @@ body {
 
 .nav-lcars {
   height: 40px;
+  width: 72px; }
+
+#content {
+  width: 1000px; }
+
+#inner-content {
+  width: 820px; }
+
+.content-lcars {
   width: 72px; }
 
 /*

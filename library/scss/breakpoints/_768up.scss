@@ -27,7 +27,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 760px;
+	width: $x768width;
 }
 
 /*********************
@@ -35,17 +35,17 @@ HEADER STYLES
 *********************/
 
 .header {
-	height: 135px;
+	height: $x768headerheight;
 }
 
 #inner-header {
 	background-image: url("../images/barfleet_header_bg_768.png");
-	height: 135px;
+	height: $x768headerheight;
 }
 
 #logo {
 	background-image: url("../images/barfleet_header_768.png");
-	height: 135px;
+	height: $x768headerheight;
 }
 
 /*********************
@@ -53,27 +53,36 @@ NAVIGATION STYLES
 *********************/
 
 #header-nav {
-	height: 33px;
-	width: 750px;
+	height: $x768navheight;
+	width: $x768width;
 	#inner-nav {
-		height: 33px;
+		height: $x768navheight;
 	}
 	#menu-primary {
-		margin: 0 10px;
-		width: 614px;
+		margin: 0 $x768navmargin;
+		width: $x768innerwidth;
 		font-size: 0.78em;
 		a {
-			padding: 5px;
+			padding: ($x768navmargin / 2);
 			&:after {
-				left: 5px;
+				left: ($x768navmargin / 2);
 			}
 		}
 	}
 }
 
 .nav-lcars {
-	height: 31px;
-	width: 54px;
+	height: ($x768navheight - 2);
+	width: $x768lcarswidth;
+}
+#content {
+	width: $x768width;
+}
+#inner-content {
+	width: $x768innerwidth;
+}
+.content-lcars {
+	width: $x768lcarswidth;
 }
 
 .nav {

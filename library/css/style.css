@@ -459,6 +459,9 @@ Here's a great tutorial on how to
 use color variables properly:
 http://sachagreif.com/sass-color-variables/
 */
+/*********************
+Width & Height Vars
+*********************/
 /******************************************************************
 Site Name:
 Author:
@@ -1224,6 +1227,9 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
+html, #container {
+  height: 100%; }
+
 body {
   font-family: "TrekDS9", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -1235,7 +1241,8 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1280,7 +1287,6 @@ style a page via class
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 96%;
   margin: 0 auto; }
 
 /*********************
@@ -1343,7 +1349,8 @@ HEADER STYLES
 .header {
   position: relative;
   height: 60px;
-  width: 100%; }
+  width: 100%;
+  z-index: 99; }
   .header #inner-header {
     background-color: #091031;
     background-image: url("../images/barfleet_header_bg_480.png");
@@ -1382,7 +1389,8 @@ and more scalable.
   position: relative;
   margin: 0 auto;
   height: 16px;
-  width: 334px; }
+  width: 334px;
+  z-index: 98; }
   #header-nav #inner-nav {
     height: 16px;
     position: fixed; }
@@ -1406,7 +1414,7 @@ and more scalable.
     #header-nav #menu-primary li {
       display: inline-block; }
     #header-nav #menu-primary a {
-      padding: 2px; }
+      padding: 1px; }
       #header-nav #menu-primary a:hover, #header-nav #menu-primary a:active {
         text-decoration: none;
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7090ca+0,7090ca+100&amp;0+80,0.73+100 */
@@ -1422,7 +1430,7 @@ and more scalable.
         content: "";
         width: 0;
         height: 1.0em;
-        left: 2px;
+        left: 1px;
         position: relative;
         border-right: 1px solid #000; }
 
@@ -1468,7 +1476,33 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 #content {
-  margin-top: 1.5em; }
+  margin: 0.25em auto;
+  height: auto;
+  position: relative;
+  width: 334px; }
+
+#inner-content {
+  position: relative;
+  height: auto;
+  width: 274px; }
+
+.content-lcars {
+  border: 1px solid #3558f8;
+  background-color: #203588;
+  display: inline-block;
+  float: left;
+  opacity: 0.42;
+  position: absolute;
+  height: 100%;
+  width: 24px; }
+
+.lcars-left {
+  top: 0;
+  left: 0; }
+
+.lcars-right {
+  top: 0;
+  right: 0; }
 
 .hentry {
   border-radius: 3px;
@@ -1836,6 +1870,14 @@ You can't use @extend within media queries
 anymore, so just be aware that if you drop
 them in here, they won't work.
 */
+  /*********************
+LAYOUT & GRID STYLES
+*********************/
+  .wrap {
+    width: 456px; }
+  /*********************
+HEADER STYLES
+*********************/
   .header {
     height: 82px; }
   #inner-header {
@@ -1862,6 +1904,12 @@ NAVIGATION STYLES
           left: 3px; }
   .nav-lcars {
     height: 20px;
+    width: 33px; }
+  #content {
+    width: 456px; }
+  #inner-content {
+    width: 370px; }
+  .content-lcars {
     width: 33px; }
   /* .menu is clearfixed inside mixins.scss */
   .menu {
@@ -1939,7 +1987,7 @@ GENERAL STYLES
 LAYOUT & GRID STYLES
 *********************/
   .wrap {
-    width: 760px; }
+    width: 750px; }
   /*********************
 HEADER STYLES
 *********************/
@@ -1969,6 +2017,12 @@ NAVIGATION STYLES
           left: 5px; }
   .nav-lcars {
     height: 31px;
+    width: 54px; }
+  #content {
+    width: 750px; }
+  #inner-content {
+    width: 614px; }
+  .content-lcars {
     width: 54px; }
   .nav {
     border: 0;
@@ -2093,7 +2147,7 @@ be seen on the Desktop.
     background-image: url("../images/barfleet_main_bg.jpg");
     background-position: center top; }
   .wrap {
-    width: 1040px; }
+    width: 1000px; }
   .header {
     height: 180px; }
   #inner-header {
@@ -2117,6 +2171,12 @@ be seen on the Desktop.
           left: 7px; }
   .nav-lcars {
     height: 40px;
+    width: 72px; }
+  #content {
+    width: 1000px; }
+  #inner-content {
+    width: 820px; }
+  .content-lcars {
     width: 72px; } }
 
 /*********************
@@ -2134,6 +2194,8 @@ You can add some advanced styles here if you like. This kicks in
 on larger screens.
 
 ******************************************************************/
+  .wrap {
+    width: 1156px; }
   .header {
     height: 208px; }
   #inner-header {
@@ -2152,11 +2214,17 @@ on larger screens.
       width: 950px;
       font-size: 1.05em; }
       #header-nav #menu-primary a {
-        padding: 10px; }
+        padding: 8px; }
         #header-nav #menu-primary a:after {
-          left: 10px; }
+          left: 8px; }
   .nav-lcars {
     height: 48px;
+    width: 83px; }
+  #content {
+    width: 1156px; }
+  #inner-content {
+    width: 950px; }
+  .content-lcars {
     width: 83px; } }
 
 /*********************
