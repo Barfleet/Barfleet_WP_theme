@@ -51,7 +51,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: $lato;
+  font-family: $bodyfonts;
   background-color: $gray;
   @include transition(background-color 0.24s ease-in-out);
 
@@ -59,7 +59,7 @@ textarea,
   &:focus,
   &:active {
     background-color: lighten($gray, 4%);
-    outline: none; 
+    outline: none;
   } // end hover or focus
 
   // error notification

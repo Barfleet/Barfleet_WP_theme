@@ -50,6 +50,67 @@ FONT FACE (IN YOUR FACE)
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+	src: url('library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+		 url('library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+		 url('library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.svg#font-name') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot');
+	src: url('library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff'),
+		 url('library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.ttf') format('truetype'),
+		 url('library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.svg#font-name') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSansItalic';
+	src: url('library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot');
+	src: url('library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.woff') format('woff'),
+		 url('library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.ttf') format('truetype'),
+		 url('library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.svg#font-name') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSansBoldItalic';
+	src: url('library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot');
+	src: url('library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.woff') format('woff'),
+		 url('library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+		 url('library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.svg#font-name') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSansSemibold';
+	src: url('library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot');
+	src: url('library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff') format('woff'),
+		 url('library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf') format('truetype'),
+		 url('library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#font-name') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSansSemiboldItalic';
+	src: url('library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot');
+	src: url('library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+		 url('library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+		 url('library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg#font-name') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /*
 The following is based of Typebase:
 https://github.com/devinhunt/typebase.css
@@ -58,15 +119,16 @@ I've edited it a bit, but it's a nice starting point.
 
 
 // font stacks
-$sans-serif:        "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif:        "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 
 /*
  I imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
-// $lato:              'Lato', $sans-serif;
-$lato:              'TrekDS9', $sans-serif;
+$lato:              'Lato', $sans-serif;
+$headerfonts:       'TrekDS9', $sans-serif;
+$bodyfonts:         'OpenSansRegular', $sans-serif;
 
 /*
 some nice typographical defaults

@@ -506,6 +506,48 @@ FONT FACE (IN YOUR FACE)
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot");
+  src: url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot");
+  src: url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSansItalic';
+  src: url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot");
+  src: url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSansBoldItalic';
+  src: url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot");
+  src: url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src: url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot");
+  src: url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSansSemiboldItalic';
+  src: url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot");
+  src: url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*
 The following is based of Typebase:
 https://github.com/devinhunt/typebase.css
@@ -885,7 +927,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 .blue-btn, .comment-reply-link, #submit {
   display: inline-block;
   position: relative;
-  font-family: "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
   font-size: 0.9em;
@@ -967,7 +1009,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "TrekDS9", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "OpenSansRegular", "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #eaedf2;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
@@ -1231,7 +1273,7 @@ html, #container {
   height: 100%; }
 
 body {
-  font-family: "TrekDS9", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "OpenSansRegular", "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #fff;
@@ -1311,23 +1353,39 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
+  background: #142052;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #142052 0%, #586f98 50%, #142052 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 );
+  /* IE6-9 */
+  border: 1px solid #1d2c7e;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
   text-rendering: optimizelegibility;
   font-weight: 500;
   /*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
 	*/
+  font-family: "TrekDS9", "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* removing text decoration from all headline links */ }
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
     text-decoration: none; }
 
 h1, .h1 {
   font-size: 2.5em;
-  line-height: 1.333em; }
+  line-height: 1.25em; }
 
 h2, .h2 {
   font-size: 1.75em;
-  line-height: 1.4em;
+  line-height: 1.125em;
   margin-bottom: 0.375em; }
 
 h3, .h3 {
@@ -1353,8 +1411,15 @@ HEADER STYLES
   z-index: 99; }
   .header #inner-header {
     background-color: #091031;
-    background-image: url("../images/barfleet_header_bg_480.png");
-    background-repeat: repeat-x;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d2879+0,091031+100&amp;0.9+0,0.85+100 */
+    background: -moz-linear-gradient(top, rgba(29, 40, 121, 0.9) 0%, rgba(9, 16, 49, 0.85) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(29, 40, 121, 0.9) 0%, rgba(9, 16, 49, 0.85) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(29, 40, 121, 0.9) 0%, rgba(9, 16, 49, 0.85) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e61d2879', endColorstr='#d9091031',GradientType=0 );
+    /* IE6-9 */
     height: 60px;
     position: fixed; }
   .header .wrap {
@@ -1398,6 +1463,7 @@ and more scalable.
     border: 1px solid #191b1f;
     display: inline-block;
     margin: 0 2px;
+    height: 14px;
     width: 274px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
     background: #222529;
@@ -1506,18 +1572,39 @@ POSTS & CONTENT STYLES
 
 .hentry {
   border-radius: 3px;
-  margin-bottom: 1.5em;
-  border: 1px solid #ccc; }
+  margin-bottom: 1.5em; }
   .hentry header {
-    border-bottom: 1px solid #f8f9fa;
-    padding: 1.5em; }
+    padding: 0; }
   .hentry footer {
-    padding: 1.5em;
-    border-top: 1px solid #f8f9fa; }
+    padding: 1.5em; }
     .hentry footer p {
       margin: 0; }
 
 /* end .hentry */
+section.entry-content {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
+  background: #142052;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #142052 0%, #586f98 50%, #142052 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 );
+  /* IE6-9 */
+  border-width: 2px;
+  border-style: outset;
+  border-color: #1c2b79;
+  margin: 0;
+  padding: 0.25rem; }
+  section.entry-content .inner-entry-content {
+    background-color: #222529;
+    border-width: 2px;
+    border-style: inset;
+    border-color: #1c2b79;
+    padding: 1.5rem; }
+
 .single-title,
 .page-title,
 .entry-title {
@@ -1561,15 +1648,12 @@ POSTS & CONTENT STYLES
       letter-spacing: 1px; }
   .entry-content tr {
     border-bottom: 1px solid #eaedf2; }
-    .entry-content tr:nth-child(even) {
-      background-color: #f8f9fa; }
   .entry-content td {
     padding: 7px;
     border-right: 1px solid #eaedf2; }
     .entry-content td:last-child {
       border-right: 0; }
   .entry-content th {
-    background-color: #f8f9fa;
     border-bottom: 1px solid #eaedf2;
     border-right: 1px solid #eaedf2; }
     .entry-content th:last-child {
@@ -1880,9 +1964,8 @@ HEADER STYLES
 *********************/
   .header {
     height: 82px; }
-  #inner-header {
-    background-image: url("../images/barfleet_header_bg_481.png");
-    height: 82px; }
+    .header #inner-header {
+      height: 82px; }
   #logo {
     background-image: url("../images/barfleet_header_481.png");
     height: 82px; }
@@ -1896,6 +1979,7 @@ NAVIGATION STYLES
       height: 22px; }
     #header-nav .top-nav {
       margin: 0 6px;
+      height: 20px;
       width: 370px;
       font-size: 0.5em; }
       #header-nav .top-nav a {
@@ -1993,9 +2077,8 @@ HEADER STYLES
 *********************/
   .header {
     height: 135px; }
-  #inner-header {
-    background-image: url("../images/barfleet_header_bg_768.png");
-    height: 135px; }
+    .header #inner-header {
+      height: 135px; }
   #logo {
     background-image: url("../images/barfleet_header_768.png");
     height: 135px; }
@@ -2009,6 +2092,7 @@ NAVIGATION STYLES
       height: 33px; }
     #header-nav .top-nav {
       margin: 0 10px;
+      height: 31px;
       width: 614px;
       font-size: 0.78em; }
       #header-nav .top-nav a {
@@ -2150,9 +2234,8 @@ be seen on the Desktop.
     width: 1000px; }
   .header {
     height: 180px; }
-  #inner-header {
-    background-image: url("../images/barfleet_header_bg_1030.png");
-    height: 180px; }
+    .header #inner-header {
+      height: 180px; }
   #logo {
     background-image: url("../images/barfleet_header_1030.png");
     height: 180px; }
@@ -2163,6 +2246,7 @@ be seen on the Desktop.
       height: 42px; }
     #header-nav .top-nav {
       margin: 0 14px;
+      height: 40px;
       width: 820px;
       font-size: 1.05em; }
       #header-nav .top-nav a {
@@ -2198,9 +2282,8 @@ on larger screens.
     width: 1156px; }
   .header {
     height: 208px; }
-  #inner-header {
-    background-image: url("../images/barfleet_header_bg_1240.png");
-    height: 208px; }
+    .header #inner-header {
+      height: 208px; }
   #logo {
     background-image: url("../images/barfleet_header_1240.png");
     height: 208px; }
@@ -2211,6 +2294,7 @@ on larger screens.
       height: 50px; }
     #header-nav .top-nav {
       margin: 0 16px;
+      height: 48px;
       width: 950px;
       font-size: 1.05em; }
       #header-nav .top-nav a {

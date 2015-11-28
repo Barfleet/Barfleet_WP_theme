@@ -20,11 +20,9 @@ body {
 
 .header {
 	height: $x1030headerheight;
-}
-
-#inner-header {
-	background-image: url("../images/barfleet_header_bg_1030.png");
-	height: $x1030headerheight;
+	#inner-header {
+		height: $x1030headerheight;
+	}
 }
 
 #logo {
@@ -40,6 +38,7 @@ body {
 	}
 	.top-nav {
 		margin: 0 $x1030navmargin;
+		height: ($x1030navheight - 2);
 		width: $x1030innerwidth;
 		font-size: 1.05em;
 		a {

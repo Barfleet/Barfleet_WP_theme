@@ -36,11 +36,9 @@ HEADER STYLES
 
 .header {
 	height: $x768headerheight;
-}
-
-#inner-header {
-	background-image: url("../images/barfleet_header_bg_768.png");
-	height: $x768headerheight;
+	#inner-header {
+		height: $x768headerheight;
+	}
 }
 
 #logo {
@@ -60,6 +58,7 @@ NAVIGATION STYLES
 	}
 	.top-nav {
 		margin: 0 $x768navmargin;
+		height: ($x768navheight - 2);
 		width: $x768innerwidth;
 		font-size: 0.78em;
 		a {

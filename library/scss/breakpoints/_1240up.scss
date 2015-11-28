@@ -15,11 +15,9 @@ on larger screens.
 
 .header {
 	height: $x1240headerheight;
-}
-
-#inner-header {
-	background-image: url("../images/barfleet_header_bg_1240.png");
-	height: $x1240headerheight;
+	#inner-header {
+		height: $x1240headerheight;
+	}
 }
 
 #logo {
@@ -35,6 +33,7 @@ on larger screens.
 	}
 	.top-nav {
 		margin: 0 $x1240navmargin;
+		height: ($x1240navheight - 2);
 		width: $x1240innerwidth;
 		font-size: 1.05em;
 		a {
