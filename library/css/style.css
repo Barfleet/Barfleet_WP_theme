@@ -1394,7 +1394,7 @@ and more scalable.
   #header-nav #inner-nav {
     height: 16px;
     position: fixed; }
-  #header-nav #menu-primary {
+  #header-nav .top-nav {
     border: 1px solid #191b1f;
     display: inline-block;
     margin: 0 2px;
@@ -1411,11 +1411,11 @@ and more scalable.
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 );
     /* IE6-9 */
     font-size: 0.28em; }
-    #header-nav #menu-primary li {
+    #header-nav .top-nav li {
       display: inline-block; }
-    #header-nav #menu-primary a {
+    #header-nav .top-nav a {
       padding: 1px; }
-      #header-nav #menu-primary a:hover, #header-nav #menu-primary a:active {
+      #header-nav .top-nav a:hover, #header-nav .top-nav a:active {
         text-decoration: none;
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7090ca+0,7090ca+100&amp;0+80,0.73+100 */
         background: -moz-linear-gradient(top, rgba(112, 144, 202, 0) 0%, rgba(112, 144, 202, 0) 80%, rgba(112, 144, 202, 0.73) 100%);
@@ -1426,7 +1426,7 @@ and more scalable.
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007090ca', endColorstr='#ba7090ca',GradientType=0 );
         /* IE6-9 */ }
-      #header-nav #menu-primary a:after {
+      #header-nav .top-nav a:after {
         content: "";
         width: 0;
         height: 1.0em;
@@ -1894,13 +1894,13 @@ NAVIGATION STYLES
     width: 456px; }
     #header-nav #inner-nav {
       height: 22px; }
-    #header-nav #menu-primary {
+    #header-nav .top-nav {
       margin: 0 6px;
       width: 370px;
       font-size: 0.5em; }
-      #header-nav #menu-primary a {
+      #header-nav .top-nav a {
         padding: 3px; }
-        #header-nav #menu-primary a:after {
+        #header-nav .top-nav a:after {
           left: 3px; }
   .nav-lcars {
     height: 20px;
@@ -2007,13 +2007,13 @@ NAVIGATION STYLES
     width: 750px; }
     #header-nav #inner-nav {
       height: 33px; }
-    #header-nav #menu-primary {
+    #header-nav .top-nav {
       margin: 0 10px;
       width: 614px;
       font-size: 0.78em; }
-      #header-nav #menu-primary a {
+      #header-nav .top-nav a {
         padding: 5px; }
-        #header-nav #menu-primary a:after {
+        #header-nav .top-nav a:after {
           left: 5px; }
   .nav-lcars {
     height: 31px;
@@ -2161,13 +2161,13 @@ be seen on the Desktop.
     width: 1000px; }
     #header-nav #inner-nav {
       height: 42px; }
-    #header-nav #menu-primary {
+    #header-nav .top-nav {
       margin: 0 14px;
       width: 820px;
       font-size: 1.05em; }
-      #header-nav #menu-primary a {
+      #header-nav .top-nav a {
         padding: 7px; }
-        #header-nav #menu-primary a:after {
+        #header-nav .top-nav a:after {
           left: 7px; }
   .nav-lcars {
     height: 40px;
@@ -2209,13 +2209,13 @@ on larger screens.
     width: 1156px; }
     #header-nav #inner-nav {
       height: 50px; }
-    #header-nav #menu-primary {
+    #header-nav .top-nav {
       margin: 0 16px;
       width: 950px;
       font-size: 1.05em; }
-      #header-nav #menu-primary a {
+      #header-nav .top-nav a {
         padding: 8px; }
-        #header-nav #menu-primary a:after {
+        #header-nav .top-nav a:after {
           left: 8px; }
   .nav-lcars {
     height: 48px;

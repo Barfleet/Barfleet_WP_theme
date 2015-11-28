@@ -221,13 +221,13 @@ NAVIGATION STYLES
   width: 456px; }
   #header-nav #inner-nav {
     height: 22px; }
-  #header-nav #menu-primary {
+  #header-nav .top-nav {
     margin: 0 6px;
     width: 370px;
     font-size: 0.5em; }
-    #header-nav #menu-primary a {
+    #header-nav .top-nav a {
       padding: 3px; }
-      #header-nav #menu-primary a:after {
+      #header-nav .top-nav a:after {
         left: 3px; }
 
 .nav-lcars {
@@ -338,13 +338,13 @@ NAVIGATION STYLES
   width: 750px; }
   #header-nav #inner-nav {
     height: 33px; }
-  #header-nav #menu-primary {
+  #header-nav .top-nav {
     margin: 0 10px;
     width: 614px;
     font-size: 0.78em; }
-    #header-nav #menu-primary a {
+    #header-nav .top-nav a {
       padding: 5px; }
-      #header-nav #menu-primary a:after {
+      #header-nav .top-nav a:after {
         left: 5px; }
 
 .nav-lcars {
@@ -499,13 +499,13 @@ body {
   width: 1000px; }
   #header-nav #inner-nav {
     height: 42px; }
-  #header-nav #menu-primary {
+  #header-nav .top-nav {
     margin: 0 14px;
     width: 820px;
     font-size: 1.05em; }
-    #header-nav #menu-primary a {
+    #header-nav .top-nav a {
       padding: 7px; }
-      #header-nav #menu-primary a:after {
+      #header-nav .top-nav a:after {
         left: 7px; }
 
 .nav-lcars {
