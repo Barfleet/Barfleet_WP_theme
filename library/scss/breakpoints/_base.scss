@@ -116,17 +116,6 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
-	background: rgb(20,32,82); /* Old browsers */
-	background: -moz-linear-gradient(left,  rgba(20,32,82,1) 0%, rgba(88,111,152,1) 50%, rgba(20,32,82,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  rgba(20,32,82,1) 0%,rgba(88,111,152,1) 50%,rgba(20,32,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  rgba(20,32,82,1) 0%,rgba(88,111,152,1) 50%,rgba(20,32,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 ); /* IE6-9 */
-	border: 1px solid #1d2c7e;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	text-align: center;
-
 	text-rendering: optimizelegibility;
 	font-weight: 500;
 	/*
@@ -251,6 +240,16 @@ and more scalable.
 		font-size: 0.28em;
 		li {
 			display: inline-block;
+			ul.sub-menu,
+			ul.children {
+				li {
+					a {
+						&:after {
+							border-right: none;
+						}
+					}
+				}
+			}
 		}
 		a {
 			padding: ($x480navmargin / 2);
@@ -363,6 +362,20 @@ POSTS & CONTENT STYLES
 	height: auto;
 	position: relative;
 	width: $x480width;
+
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
+		background: rgb(20,32,82); /* Old browsers */
+		background: -moz-linear-gradient(left,  rgba(20,32,82,1) 0%, rgba(88,111,152,1) 50%, rgba(20,32,82,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  rgba(20,32,82,1) 0%,rgba(88,111,152,1) 50%,rgba(20,32,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  rgba(20,32,82,1) 0%,rgba(88,111,152,1) 50%,rgba(20,32,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 ); /* IE6-9 */
+		border: 1px solid #1d2c7e;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		text-align: center;
+	}
+
 }
 #inner-content {
 	position: relative;

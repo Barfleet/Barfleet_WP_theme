@@ -116,8 +116,8 @@ NAVIGATION STYLES
 		ul.sub-menu,
 		ul.children {
 			margin-top: 0;
-			border: 1px solid #ccc;
-			border-top: 0;
+			// border: 1px solid #191b1f;
+			// border-top: 0;
 			position: absolute;
 			visibility: hidden;
 			z-index: 8999;
@@ -128,8 +128,8 @@ NAVIGATION STYLES
 					padding-left: 10px;
 					border-right: 0;
 					display: block;
-					width: 180px;
-					border-bottom: 1px solid #ccc;
+					width: ($x768width * 0.24);
+					// border-bottom: 1px solid #ccc;
 
 					&:hover,
 					&:focus {}

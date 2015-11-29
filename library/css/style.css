@@ -237,8 +237,7 @@ menu {
 
 ol,
 ul {
-  padding: 0;
-  list-style-type: none; }
+  padding: 0; }
 
 /*
  * Corrects list images handled incorrectly in IE7.
@@ -1353,21 +1352,6 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
-  background: #142052;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #142052 0%, #586f98 50%, #142052 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 );
-  /* IE6-9 */
-  border: 1px solid #1d2c7e;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  text-align: center;
   text-rendering: optimizelegibility;
   font-weight: 500;
   /*
@@ -1479,6 +1463,9 @@ and more scalable.
     font-size: 0.28em; }
     #header-nav .top-nav li {
       display: inline-block; }
+      #header-nav .top-nav li ul.sub-menu li a:after,
+      #header-nav .top-nav li ul.children li a:after {
+        border-right: none; }
     #header-nav .top-nav a {
       padding: 1px; }
       #header-nav .top-nav a:hover, #header-nav .top-nav a:active {
@@ -1546,6 +1533,22 @@ POSTS & CONTENT STYLES
   height: auto;
   position: relative;
   width: 334px; }
+  #content h1, #content .h1, #content h2, #content .h2, #content h3, #content .h3, #content h4, #content .h4, #content h5, #content .h5 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
+    background: #142052;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #142052 0%, #586f98 50%, #142052 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #142052 0%, #586f98 50%, #142052 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 );
+    /* IE6-9 */
+    border: 1px solid #1d2c7e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center; }
 
 #inner-content {
   position: relative;
@@ -2135,8 +2138,6 @@ NAVIGATION STYLES
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;
-        border: 1px solid #ccc;
-        border-top: 0;
         position: absolute;
         visibility: hidden;
         z-index: 8999;
@@ -2153,8 +2154,7 @@ NAVIGATION STYLES
             padding-left: 10px;
             border-right: 0;
             display: block;
-            width: 180px;
-            border-bottom: 1px solid #ccc; }
+            width: 180px; }
           .nav li ul.sub-menu li:last-child a,
           .nav li ul.children li:last-child a {
             border-bottom: 0; }

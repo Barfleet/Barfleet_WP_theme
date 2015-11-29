@@ -468,8 +468,7 @@ probably best not to use it. I mean, were you going to anyway? */
     padding: 0 0 0 40px; }
   body#tinymce.wp-editor ol,
   body#tinymce.wp-editor ul {
-    padding: 0;
-    list-style-type: none; }
+    padding: 0; }
   body#tinymce.wp-editor nav ul,
   body#tinymce.wp-editor nav ol {
     list-style: none;
