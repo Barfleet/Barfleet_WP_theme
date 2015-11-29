@@ -271,6 +271,10 @@ NAVIGATION STYLES
       #header-nav .top-nav a:after {
         left: 3px; }
 
+.nav li ul.sub-menu li a,
+.nav li ul.children li a {
+  width: 109.44px; }
+
 .nav-lcars {
   height: 20px;
   width: 33px; }
@@ -382,6 +386,21 @@ NAVIGATION STYLES
     height: 31px;
     width: 614px;
     font-size: 0.78em; }
+    #header-nav .top-nav li {
+      display: inline-block; }
+      #header-nav .top-nav li ul.sub-menu li,
+      #header-nav .top-nav li ul.children li {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
+        background: #222529;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(34, 37, 41, 0.9) 0%, rgba(25, 27, 31, 0.9) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(34, 37, 41, 0.9) 0%, rgba(25, 27, 31, 0.9) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(34, 37, 41, 0.9) 0%, rgba(25, 27, 31, 0.9) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 );
+        /* IE6-9 */ }
     #header-nav .top-nav a {
       padding: 5px; }
       #header-nav .top-nav a:after {
@@ -406,7 +425,6 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */ }
   .nav ul {
-    background: #323944;
     margin-top: 0; }
   .nav li {
     float: left;
@@ -422,8 +440,7 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/ }
       .nav li a:hover, .nav li a:focus {
-        color: #fff;
-        text-decoration: underline; }
+        color: #fff; }
     .nav li ul.sub-menu,
     .nav li ul.children {
       margin-top: 0;
@@ -543,6 +560,10 @@ body {
       padding: 7px; }
       #header-nav .top-nav a:after {
         left: 7px; }
+
+.nav li ul.sub-menu li a,
+.nav li ul.children li a {
+  width: 240px; }
 
 .nav-lcars {
   height: 40px;

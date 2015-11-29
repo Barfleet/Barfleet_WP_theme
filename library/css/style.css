@@ -1463,9 +1463,22 @@ and more scalable.
     font-size: 0.28em; }
     #header-nav .top-nav li {
       display: inline-block; }
-      #header-nav .top-nav li ul.sub-menu li a:after,
-      #header-nav .top-nav li ul.children li a:after {
-        border-right: none; }
+      #header-nav .top-nav li ul.sub-menu li,
+      #header-nav .top-nav li ul.children li {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
+        background: #222529;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(34, 37, 41, 0.85) 0%, rgba(25, 27, 31, 0.85) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(34, 37, 41, 0.85) 0%, rgba(25, 27, 31, 0.85) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(34, 37, 41, 0.85) 0%, rgba(25, 27, 31, 0.85) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 );
+        /* IE6-9 */ }
+        #header-nav .top-nav li ul.sub-menu li a:after,
+        #header-nav .top-nav li ul.children li a:after {
+          border-right: none; }
     #header-nav .top-nav a {
       padding: 1px; }
       #header-nav .top-nav a:hover, #header-nav .top-nav a:active {
@@ -1508,7 +1521,8 @@ and more scalable.
 		screen is so small. How you manage your menu should
 		depend on the project. Here's some great info on it:
 		http://www.alistapart.com/articles/organizing-mobile/
-		*/ }
+		*/
+    /* showing sub-menus */ }
     .nav li a {
       display: block;
       color: #fff;
@@ -1520,9 +1534,18 @@ and more scalable.
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
 			*/ }
-    .nav li ul.sub-menu li a,
-    .nav li ul.children li a {
-      padding-left: 30px; }
+    .nav li ul.sub-menu,
+    .nav li ul.children {
+      margin-top: 0;
+      position: absolute;
+      visibility: hidden;
+      z-index: 8999; }
+      .nav li ul.sub-menu li a,
+      .nav li ul.children li a {
+        padding-left: 30px; }
+    .nav li:hover > ul {
+      top: auto;
+      visibility: visible; }
 
 /* end .nav */
 /*********************
@@ -1989,6 +2012,9 @@ NAVIGATION STYLES
         padding: 3px; }
         #header-nav .top-nav a:after {
           left: 3px; }
+  .nav li ul.sub-menu li a,
+  .nav li ul.children li a {
+    width: 109.44px; }
   .nav-lcars {
     height: 20px;
     width: 33px; }
@@ -2098,6 +2124,21 @@ NAVIGATION STYLES
       height: 31px;
       width: 614px;
       font-size: 0.78em; }
+      #header-nav .top-nav li {
+        display: inline-block; }
+        #header-nav .top-nav li ul.sub-menu li,
+        #header-nav .top-nav li ul.children li {
+          /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
+          background: #222529;
+          /* Old browsers */
+          background: -moz-linear-gradient(top, rgba(34, 37, 41, 0.9) 0%, rgba(25, 27, 31, 0.9) 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(top, rgba(34, 37, 41, 0.9) 0%, rgba(25, 27, 31, 0.9) 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, rgba(34, 37, 41, 0.9) 0%, rgba(25, 27, 31, 0.9) 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 );
+          /* IE6-9 */ }
       #header-nav .top-nav a {
         padding: 5px; }
         #header-nav .top-nav a:after {
@@ -2117,7 +2158,6 @@ NAVIGATION STYLES
     /* highlight current page */
     /* end current highlighters */ }
     .nav ul {
-      background: #323944;
       margin-top: 0; }
     .nav li {
       float: left;
@@ -2133,8 +2173,7 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/ }
         .nav li a:hover, .nav li a:focus {
-          color: #fff;
-          text-decoration: underline; }
+          color: #fff; }
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;
@@ -2253,6 +2292,9 @@ be seen on the Desktop.
         padding: 7px; }
         #header-nav .top-nav a:after {
           left: 7px; }
+  .nav li ul.sub-menu li a,
+  .nav li ul.children li a {
+    width: 240px; }
   .nav-lcars {
     height: 40px;
     width: 72px; }
@@ -2301,6 +2343,9 @@ on larger screens.
         padding: 8px; }
         #header-nav .top-nav a:after {
           left: 8px; }
+  .nav li ul.sub-menu li a,
+  .nav li ul.children li a {
+    width: 277.44px; }
   .nav-lcars {
     height: 48px;
     width: 83px; }

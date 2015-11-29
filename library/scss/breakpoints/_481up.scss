@@ -69,6 +69,18 @@ NAVIGATION STYLES
 		}
 	}
 }
+.nav {
+	li {
+		ul.sub-menu,
+		ul.children {
+			li {
+				a {
+					width: ($x481width * 0.24);
+				}
+			}
+		}
+	}
+}
 
 .nav-lcars {
 	height: ($x481navheight - 2);

@@ -243,6 +243,12 @@ and more scalable.
 			ul.sub-menu,
 			ul.children {
 				li {
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
+					background: rgb(34,37,41); /* Old browsers */
+					background: -moz-linear-gradient(top,  rgba(34,37,41,0.85) 0%, rgba(25,27,31,0.85) 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(top,  rgba(34,37,41,0.85) 0%,rgba(25,27,31,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to bottom,  rgba(34,37,41,0.85) 0%,rgba(25,27,31,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 ); /* IE6-9 */
 					a {
 						&:after {
 							border-right: none;
@@ -318,6 +324,10 @@ and more scalable.
 		*/
 		ul.sub-menu,
 		ul.children {
+			margin-top: 0;
+			position: absolute;
+			visibility: hidden;
+			z-index: 8999;
 
 			li {
 
@@ -337,6 +347,12 @@ and more scalable.
 
 			}
 
+		}
+
+		/* showing sub-menus */
+		&:hover > ul {
+			top: auto;
+			visibility:visible;
 		}
 
 	} /* end .menu li */

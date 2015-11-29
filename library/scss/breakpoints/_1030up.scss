@@ -49,6 +49,18 @@ body {
 		}
 	}
 }
+.nav {
+	li {
+		ul.sub-menu,
+		ul.children {
+			li {
+				a {
+					width: ($x1030width * 0.24);
+				}
+			}
+		}
+	}
+}
 
 .nav-lcars {
 	height: ($x1030navheight - 2);

@@ -61,6 +61,20 @@ NAVIGATION STYLES
 		height: ($x768navheight - 2);
 		width: $x768innerwidth;
 		font-size: 0.78em;
+		li {
+			display: inline-block;
+			ul.sub-menu,
+			ul.children {
+				li {
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
+					background: rgb(34,37,41); /* Old browsers */
+					background: -moz-linear-gradient(top,  rgba(34,37,41,0.9) 0%, rgba(25,27,31,0.9) 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(top,  rgba(34,37,41,0.9) 0%,rgba(25,27,31,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to bottom,  rgba(34,37,41,0.9) 0%,rgba(25,27,31,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 ); /* IE6-9 */
+				}
+			}
+		}
 		a {
 			padding: ($x768navmargin / 2);
 			&:after {
@@ -87,7 +101,6 @@ NAVIGATION STYLES
 .nav {
 	border: 0;
 	ul {
-		background:$black;
 		margin-top:0;
 	}
 	li {
@@ -103,7 +116,6 @@ NAVIGATION STYLES
 			*/
 			&:hover, &:focus {
 				color: $white;
-				text-decoration: underline;
 			}
 		}
 
@@ -116,8 +128,6 @@ NAVIGATION STYLES
 		ul.sub-menu,
 		ul.children {
 			margin-top: 0;
-			// border: 1px solid #191b1f;
-			// border-top: 0;
 			position: absolute;
 			visibility: hidden;
 			z-index: 8999;
@@ -129,7 +139,6 @@ NAVIGATION STYLES
 					border-right: 0;
 					display: block;
 					width: ($x768width * 0.24);
-					// border-bottom: 1px solid #ccc;
 
 					&:hover,
 					&:focus {}
