@@ -163,13 +163,7 @@ hr {
  * proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens)
 */
 
-p {
-  -webkit-hyphens: auto;
-  -epub-hyphens:   auto;
-  -moz-hyphens:    auto;
-  hyphens:         auto;
-
-}
+p {}
 
 /*
  * Addresses margins set differently in IE6/7.
