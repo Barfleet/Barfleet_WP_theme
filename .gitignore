@@ -54,5 +54,6 @@ temp/
 
 .svn
 
+node_modules/
 *.codekit
 *.scssc
