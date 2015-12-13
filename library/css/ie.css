@@ -142,15 +142,6 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p {
-  -ms-word-wrap: break-word;
-  word-break: break-word;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  -webkit-hyphenate-before: 2;
-  -webkit-hyphenate-after: 3;
-  hyphenate-lines: 3;
   -webkit-font-feature-settings: "liga", "dlig";
   -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";

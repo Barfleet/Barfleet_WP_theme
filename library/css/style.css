@@ -153,12 +153,6 @@ hr {
 /*
  * proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens)
 */
-p {
-  -webkit-hyphens: auto;
-  -epub-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
-
 /*
  * Addresses margins set differently in IE6/7.
  */
@@ -561,15 +555,6 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p {
-  -ms-word-wrap: break-word;
-  word-break: break-word;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  -webkit-hyphenate-before: 2;
-  -webkit-hyphenate-after: 3;
-  hyphenate-lines: 3;
   -webkit-font-feature-settings: "liga", "dlig";
   -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";
@@ -1599,6 +1584,8 @@ POSTS & CONTENT STYLES
 .hentry {
   border-radius: 3px;
   margin-bottom: 1.5em; }
+  .hentry:last-child {
+    margin-bottom: 0; }
   .hentry header {
     padding: 0; }
   .hentry footer {
@@ -1629,7 +1616,8 @@ section.entry-content {
     border-width: 2px;
     border-style: inset;
     border-color: #1c2b79;
-    padding: 1.5rem; }
+    padding: 1.5rem;
+    text-align: justify; }
 
 .single-title,
 .page-title,
@@ -1649,7 +1637,9 @@ section.entry-content {
 .byline {
   color: #9fa6b4;
   font-style: italic;
-  margin: 0; }
+  font-size: 0.9em;
+  margin: 0;
+  text-align: right; }
 
 /* entry content */
 .entry-content {
