@@ -61,6 +61,7 @@ $x480navheight:      16px;
 $x480navmargin:      2px;
 $x480lcarswidth:     24px;
 $x480innerwidth:     ($x480width - (($x480lcarswidth + 2) * 2) - (($x480navmargin + 2) * 2));
+$x480footerheight:   55px;
 
 // 481
 $x481width:          456px;
@@ -69,6 +70,7 @@ $x481navheight:      22px;
 $x481navmargin:      6px;
 $x481lcarswidth:     33px;
 $x481innerwidth:   	 ($x481width - (($x481lcarswidth + 2) * 2) - (($x481navmargin + 2) * 2));
+$x481footerheight:   75px;
 
 // 768
 $x768width:          750px;
@@ -77,6 +79,7 @@ $x768navheight:      33px;
 $x768navmargin:      10px;
 $x768lcarswidth:     54px;
 $x768innerwidth:     ($x768width - (($x768lcarswidth + 2) * 2) - (($x768navmargin + 2) * 2));
+$x768footerheight:   123px;
 
 // 1030
 $x1030width:         1000px;
@@ -85,6 +88,7 @@ $x1030navheight:     42px;
 $x1030navmargin:     14px;
 $x1030lcarswidth:    72px;
 $x1030innerwidth:    ($x1030width - (($x1030lcarswidth + 2) * 2) - (($x1030navmargin + 2) * 2));
+$x1030footerheight:  164px;
 
 // 1240
 $x1240width:         1156px;
@@ -93,3 +97,4 @@ $x1240navheight:     50px;
 $x1240navmargin:     16px;
 $x1240lcarswidth:    83px;
 $x1240innerwidth:    ($x1240width - (($x1240lcarswidth + 2) * 2) - (($x1240navmargin + 2) * 2));
+$x1240footerheight:  190px;

@@ -87,6 +87,7 @@ NAVIGATION STYLES
 	width: $x481lcarswidth;
 }
 #content {
+	margin: 0.25em auto ($x481footerheight + $x481navmargin) auto;
 	width: $x481width;
 }
 #inner-content {
@@ -173,6 +174,15 @@ POSTS & CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
+.footer {
+	background-image: url("../images/barfleet_footer_481.png");
+	height: $x481footerheight;
+
+	#inner-footer {
+		height: $x481footerheight;
+		width: $x481innerwidth;
+	}
+}
 
 /*
 check your menus here. do they look good?

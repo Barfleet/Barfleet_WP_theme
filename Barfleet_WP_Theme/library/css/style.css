@@ -1537,7 +1537,7 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 #content {
-  margin: 0.25em auto;
+  margin: 0.25em auto 57px auto;
   height: auto;
   position: relative;
   width: 334px; }
@@ -1592,6 +1592,8 @@ POSTS & CONTENT STYLES
     padding: 1.5em; }
     .hentry footer p {
       margin: 0; }
+    .hentry footer:last-child {
+      padding: 0.25em; }
 
 /* end .hentry */
 section.entry-content {
@@ -1928,18 +1930,32 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
-  color: #f8f9fa; }
+  background-image: url("../images/barfleet_footer_480.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 55px;
+  margin: auto 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99; }
+  .footer #inner-footer {
+    height: 55px;
+    width: 274px;
+    position: fixed; }
+  .footer .wrap {
+    margin: 0;
+    width: 100%; }
 
 /*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
+if you checked out the link above:
+http://www.alistapart.com/articles/organizing-mobile/
+you'll want to style the footer nav
+a bit more in-depth. Remember to keep
+it simple because you'll have to
+override these styles for the desktop
+view.
+*/
 /* end .footer-links */
 /*********************
 LARGER MOBILE DEVICES
@@ -2009,6 +2025,7 @@ NAVIGATION STYLES
     height: 20px;
     width: 33px; }
   #content {
+    margin: 0.25em auto 81px auto;
     width: 456px; }
   #inner-content {
     width: 370px; }
@@ -2054,6 +2071,12 @@ POSTS & CONTENT STYLES
   /*********************
 FOOTER STYLES
 *********************/
+  .footer {
+    background-image: url("../images/barfleet_footer_481.png");
+    height: 75px; }
+    .footer #inner-footer {
+      height: 75px;
+      width: 370px; }
   /*
 check your menus here. do they look good?
 do they need tweaking?
@@ -2137,6 +2160,7 @@ NAVIGATION STYLES
     height: 31px;
     width: 54px; }
   #content {
+    margin: 0.25em auto 133px auto;
     width: 750px; }
   #inner-content {
     width: 614px; }
@@ -2226,6 +2250,12 @@ SIDEBARS & ASIDES
   /*********************
 FOOTER STYLES
 *********************/
+  .footer {
+    background-image: url("../images/barfleet_footer_768.png");
+    height: 123px; }
+    .footer #inner-footer {
+      height: 123px;
+      width: 614px; }
   /*
 you'll probably need to do quite a bit
 of overriding here if you styled them for
@@ -2289,11 +2319,18 @@ be seen on the Desktop.
     height: 40px;
     width: 72px; }
   #content {
+    margin: 0.25em auto 178px auto;
     width: 1000px; }
   #inner-content {
     width: 820px; }
   .content-lcars {
-    width: 72px; } }
+    width: 72px; }
+  .footer {
+    background-image: url("../images/barfleet_footer_1030.png");
+    height: 164px; }
+    .footer #inner-footer {
+      height: 164px;
+      width: 820px; } }
 
 /*********************
 LARGE VIEWING SIZE
@@ -2340,11 +2377,18 @@ on larger screens.
     height: 48px;
     width: 83px; }
   #content {
+    margin: 0.25em auto 206px auto;
     width: 1156px; }
   #inner-content {
     width: 950px; }
   .content-lcars {
-    width: 83px; } }
+    width: 83px; }
+  .footer {
+    background-image: url("../images/barfleet_footer_1240.png");
+    height: 190px; }
+    .footer #inner-footer {
+      height: 190px;
+      width: 950px; } }
 
 /*********************
 RETINA (2x RESOLUTION DEVICES)

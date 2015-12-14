@@ -89,6 +89,7 @@ NAVIGATION STYLES
 	width: $x768lcarswidth;
 }
 #content {
+	margin: 0.25em auto ($x768footerheight + $x768navmargin) auto;
 	width: $x768width;
 }
 #inner-content {
@@ -317,6 +318,16 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
+
+.footer {
+	background-image: url("../images/barfleet_footer_768.png");
+	height: $x768footerheight;
+
+	#inner-footer {
+		height: $x768footerheight;
+		width: $x768innerwidth;
+	}
+}
 
 /*
 you'll probably need to do quite a bit

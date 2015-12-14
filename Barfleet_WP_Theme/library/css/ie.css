@@ -271,6 +271,7 @@ NAVIGATION STYLES
   width: 33px; }
 
 #content {
+  margin: 0.25em auto 81px auto;
   width: 456px; }
 
 #inner-content {
@@ -321,6 +322,13 @@ POSTS & CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
+.footer {
+  background-image: url("../images/barfleet_footer_481.png");
+  height: 75px; }
+  .footer #inner-footer {
+    height: 75px;
+    width: 370px; }
+
 /*
 check your menus here. do they look good?
 do they need tweaking?
@@ -402,6 +410,7 @@ NAVIGATION STYLES
   width: 54px; }
 
 #content {
+  margin: 0.25em auto 133px auto;
   width: 750px; }
 
 #inner-content {
@@ -498,6 +507,13 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
+.footer {
+  background-image: url("../images/barfleet_footer_768.png");
+  height: 123px; }
+  .footer #inner-footer {
+    height: 123px;
+    width: 614px; }
+
 /*
 you'll probably need to do quite a bit
 of overriding here if you styled them for
@@ -561,6 +577,7 @@ body {
   width: 72px; }
 
 #content {
+  margin: 0.25em auto 178px auto;
   width: 1000px; }
 
 #inner-content {
@@ -568,6 +585,13 @@ body {
 
 .content-lcars {
   width: 72px; }
+
+.footer {
+  background-image: url("../images/barfleet_footer_1030.png");
+  height: 164px; }
+  .footer #inner-footer {
+    height: 164px;
+    width: 820px; }
 
 /*
 you can call the larger styles if you want, but there's really no need

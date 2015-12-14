@@ -67,6 +67,7 @@ body {
 	width: $x1030lcarswidth;
 }
 #content {
+	margin: 0.25em auto ($x1030footerheight + $x1030navmargin) auto;
 	width: $x1030width;
 }
 #inner-content {
@@ -75,3 +76,14 @@ body {
 .content-lcars {
 	width: $x1030lcarswidth;
 }
+
+.footer {
+	background-image: url("../images/barfleet_footer_1030.png");
+	height: $x1030footerheight;
+
+	#inner-footer {
+		height: $x1030footerheight;
+		width: $x1030innerwidth;
+	}
+}
+

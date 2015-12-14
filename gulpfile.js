@@ -15,16 +15,16 @@ var config = {
 
 var sources = {
 	sass: [
-		'WP_theme/library/scss/{,*/}*.scss'
+		'Barfleet_WP_Theme/library/scss/{,*/}*.scss'
 	]
 };
 
 gulp.task('build-css', function() {
-	return gulp.src('WP_theme/library/scss/*.scss')
+	return gulp.src('Barfleet_WP_Theme/library/scss/*.scss')
 		.pipe(sass({style: 'compressed'}))
 //		.pipe(rename({suffix: '.min'}))
 //		.pipe(minifycss())
-		.pipe(gulp.dest('WP_theme/library/css'))
+		.pipe(gulp.dest('Barfleet_WP_Theme/library/css'))
 	;
 });
 

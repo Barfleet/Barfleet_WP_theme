@@ -374,7 +374,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin: 0.25em auto;
+	margin: 0.25em auto ($x480footerheight + $x480navmargin) auto;
 	height: auto;
 	position: relative;
 	width: $x480width;
@@ -434,6 +434,10 @@ POSTS & CONTENT STYLES
 
 		p {
 			margin: 0;
+		}
+
+		&:last-child {
+			padding: 0.25em;
 		}
 	}
 
@@ -1047,28 +1051,55 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
-	color: $light-gray;
+	// background-color: $black;
+	// color: $light-gray;
+
+	background-image: url("../images/barfleet_footer_480.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: $x480footerheight;
+	margin: auto 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 99;
+
+	#inner-footer {
+		// background-color: $bg-color;
+		// /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d2879+0,091031+100&amp;0.9+0,0.85+100 */
+		// background: -moz-linear-gradient(top, rgba(29,40,121,0.9) 0%, rgba(9,16,49,0.85) 100%); /* FF3.6-15 */
+		// background: -webkit-linear-gradient(top, rgba(29,40,121,0.9) 0%,rgba(9,16,49,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+		// background: linear-gradient(to bottom, rgba(29,40,121,0.9) 0%,rgba(9,16,49,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e61d2879', endColorstr='#d9091031',GradientType=0 ); /* IE6-9 */
+		height: $x480footerheight;
+		width: $x480innerwidth;
+		position: fixed;
+	}
+
+	.wrap {
+		margin: 0;
+		width: 100%;
+	}
 }
 
-	/*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
-	.footer-links {
+/*
+if you checked out the link above:
+http://www.alistapart.com/articles/organizing-mobile/
+you'll want to style the footer nav
+a bit more in-depth. Remember to keep
+it simple because you'll have to
+override these styles for the desktop
+view.
+*/
+.footer-links {
 
-		ul {
+	ul {
 
-			li {}
+		li {}
 
-		}
+	}
 
-	} /* end .footer-links */
+} /* end .footer-links */
 
 
-	.copyright {}
+.copyright {}

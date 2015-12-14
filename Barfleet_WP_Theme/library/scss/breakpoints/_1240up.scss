@@ -62,6 +62,7 @@ on larger screens.
 	width: $x1240lcarswidth;
 }
 #content {
+	margin: 0.25em auto ($x1240footerheight + $x1240navmargin) auto;
 	width: $x1240width;
 }
 #inner-content {
@@ -70,3 +71,14 @@ on larger screens.
 .content-lcars {
 	width: $x1240lcarswidth;
 }
+
+.footer {
+	background-image: url("../images/barfleet_footer_1240.png");
+	height: $x1240footerheight;
+
+	#inner-footer {
+		height: $x1240footerheight;
+		width: $x1240innerwidth;
+	}
+}
+
