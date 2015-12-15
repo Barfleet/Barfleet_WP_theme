@@ -1319,12 +1319,12 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #f01d4f;
+  color: #647ac1;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #d10e3c; }
+    color: #4760b1; }
   a:link, a:visited:link {
     /*
 		this highlights links on iPhones/iPads.
@@ -1347,6 +1347,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   /* removing text decoration from all headline links */ }
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
     text-decoration: none; }
+  h1 a, h1 a:visited, .h1 a, .h1 a:visited, h2 a, h2 a:visited, .h2 a, .h2 a:visited, h3 a, h3 a:visited, .h3 a, .h3 a:visited, h4 a, h4 a:visited, .h4 a, .h4 a:visited, h5 a, h5 a:visited, .h5 a, .h5 a:visited {
+    color: #a5a5a5;
+    /* on hover */
+    /* on click */ }
+    h1 a:hover, h1 a:focus, h1 a:visited:hover, h1 a:visited:focus, .h1 a:hover, .h1 a:focus, .h1 a:visited:hover, .h1 a:visited:focus, h2 a:hover, h2 a:focus, h2 a:visited:hover, h2 a:visited:focus, .h2 a:hover, .h2 a:focus, .h2 a:visited:hover, .h2 a:visited:focus, h3 a:hover, h3 a:focus, h3 a:visited:hover, h3 a:visited:focus, .h3 a:hover, .h3 a:focus, .h3 a:visited:hover, .h3 a:visited:focus, h4 a:hover, h4 a:focus, h4 a:visited:hover, h4 a:visited:focus, .h4 a:hover, .h4 a:focus, .h4 a:visited:hover, .h4 a:visited:focus, h5 a:hover, h5 a:focus, h5 a:visited:hover, h5 a:visited:focus, .h5 a:hover, .h5 a:focus, .h5 a:visited:hover, .h5 a:visited:focus {
+      color: #bcbcbc; }
 
 h1, .h1 {
   font-size: 2.5em;

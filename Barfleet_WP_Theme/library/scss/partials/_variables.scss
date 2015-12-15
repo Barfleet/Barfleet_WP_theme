@@ -38,8 +38,11 @@ $green:             #7dd667;
 $bones-pink:        #f01d4f;
 $blue:              #2980b9;
 
-$link-color:        $bones-pink;
+$link-color:        #647ac1;
 $link-hover:        darken($link-color, 9%);
+
+$header-link-color: #a5a5a5;
+$header-link-hover: lighten($header-link-color, 9%);
 
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
