@@ -81,8 +81,8 @@ FONT FACE (IN YOUR FACE)
 */
 @font-face {
   font-family: 'TrekDS9';
-  src: url("library/fonts/Trek-DS9-Credits-Text.eot");
-  src: url("library/fonts/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("library/fonts/Trek-DS9-Credits-Text.woff") format("woff"), url("library/fonts/Trek-DS9-Credits-Text.ttf") format("truetype"), url("library/fonts/Trek-DS9-Credits-Text.svg#font-name") format("svg");
+  src: url("library/fonts/trekds9/Trek-DS9-Credits-Text.eot");
+  src: url("library/fonts/trekds9/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.woff") format("woff"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.ttf") format("truetype"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -226,6 +226,29 @@ You can't use @extend within media queries
 anymore, so just be aware that if you drop
 them in here, they won't work.
 */
+.ship-logo {
+  background-size: 27px 162px;
+  height: 27px;
+  width: 27px; }
+
+.ship-casual {
+  background-position: 0 0; }
+
+.ship-columbus {
+  background-position: 0 -27px; }
+
+.ship-indycent {
+  background-position: 0 -54px; }
+
+.ship-shameless {
+  background-position: 0 -81px; }
+
+.ship-abandon {
+  background-position: 0 -108px; }
+
+.ship-delirium {
+  background-position: 0 -135px; }
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -353,6 +376,29 @@ GENERAL STYLES
 body {
   background-image: url("../images/barfleet_main_bg.jpg");
   background-position: left top; }
+
+.ship-logo {
+  background-size: 45px 270px;
+  height: 45px;
+  width: 45px; }
+
+.ship-casual {
+  background-position: 0 0; }
+
+.ship-columbus {
+  background-position: 0 -45px; }
+
+.ship-indycent {
+  background-position: 0 -90px; }
+
+.ship-shameless {
+  background-position: 0 -135px; }
+
+.ship-abandon {
+  background-position: 0 -180px; }
+
+.ship-delirium {
+  background-position: 0 -225px; }
 
 /*********************
 LAYOUT & GRID STYLES
@@ -540,6 +586,29 @@ be seen on the Desktop.
 body {
   background-image: url("../images/barfleet_main_bg.jpg");
   background-position: center top; }
+
+.ship-logo {
+  background-size: 59px 354px;
+  height: 59px;
+  width: 59px; }
+
+.ship-casual {
+  background-position: 0 0; }
+
+.ship-columbus {
+  background-position: 0 -59px; }
+
+.ship-indycent {
+  background-position: 0 -118px; }
+
+.ship-shameless {
+  background-position: 0 -177px; }
+
+.ship-abandon {
+  background-position: 0 -236px; }
+
+.ship-delirium {
+  background-position: 0 -295px; }
 
 .wrap {
   width: 1000px; }

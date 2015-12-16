@@ -33,6 +33,34 @@ body {
 	height: 100%;
 }
 
+// Ship sprites
+.ship-logo {
+	background-image: url('../images/ship_logos_sprite.png');
+	background-repeat: no-repeat;
+	background-size: $x480iconwidth ($x480iconheight * 6);
+	display: inline-block;
+	height: $x480iconheight;
+	width: $x480iconwidth;
+}
+.ship-casual {
+	background-position: 0 0;
+}
+.ship-columbus {
+	background-position: 0 0-($x480iconheight);
+}
+.ship-indycent {
+	background-position: 0 0-($x480iconheight * 2);
+}
+.ship-shameless {
+	background-position: 0 0-($x480iconheight * 3);
+}
+.ship-abandon {
+	background-position: 0 0-($x480iconheight * 4);
+}
+.ship-delirium {
+	background-position: 0 0-($x480iconheight * 5);
+}
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class

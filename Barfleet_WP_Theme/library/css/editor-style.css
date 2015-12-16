@@ -561,8 +561,8 @@ probably best not to use it. I mean, were you going to anyway? */
 @font-face {
   body#tinymce.wp-editor {
     font-family: 'TrekDS9';
-    src: url("library/fonts/Trek-DS9-Credits-Text.eot");
-    src: url("library/fonts/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("library/fonts/Trek-DS9-Credits-Text.woff") format("woff"), url("library/fonts/Trek-DS9-Credits-Text.ttf") format("truetype"), url("library/fonts/Trek-DS9-Credits-Text.svg#font-name") format("svg");
+    src: url("library/fonts/trekds9/Trek-DS9-Credits-Text.eot");
+    src: url("library/fonts/trekds9/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.woff") format("woff"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.ttf") format("truetype"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.svg#font-name") format("svg");
     font-weight: normal;
     font-style: normal; } }
 

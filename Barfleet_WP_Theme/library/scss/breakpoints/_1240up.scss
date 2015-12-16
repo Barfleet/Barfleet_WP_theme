@@ -9,6 +9,32 @@ on larger screens.
 
 ******************************************************************/
 
+// Ship sprites
+.ship-logo {
+	background-size: $x1240iconwidth ($x1240iconheight * 6);
+	height: $x1240iconheight;
+	width: $x1240iconwidth;
+}
+.ship-casual {
+	background-position: 0 0;
+}
+.ship-columbus {
+	background-position: 0 0-($x1240iconheight);
+}
+.ship-indycent {
+	background-position: 0 0-($x1240iconheight * 2);
+}
+.ship-shameless {
+	background-position: 0 0-($x1240iconheight * 3);
+}
+.ship-abandon {
+	background-position: 0 0-($x1240iconheight * 4);
+}
+.ship-delirium {
+	background-position: 0 0-($x1240iconheight * 5);
+}
+
+
 .wrap {
 	width: $x1240width;
 }

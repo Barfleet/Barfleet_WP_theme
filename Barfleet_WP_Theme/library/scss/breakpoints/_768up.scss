@@ -22,6 +22,31 @@ body {
 	background-position: left top;
 }
 
+// Ship sprites
+.ship-logo {
+	background-size: $x768iconwidth ($x768iconheight * 6);
+	height: $x768iconheight;
+	width: $x768iconwidth;
+}
+.ship-casual {
+	background-position: 0 0;
+}
+.ship-columbus {
+	background-position: 0 0-($x768iconheight);
+}
+.ship-indycent {
+	background-position: 0 0-($x768iconheight * 2);
+}
+.ship-shameless {
+	background-position: 0 0-($x768iconheight * 3);
+}
+.ship-abandon {
+	background-position: 0 0-($x768iconheight * 4);
+}
+.ship-delirium {
+	background-position: 0 0-($x768iconheight * 5);
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/

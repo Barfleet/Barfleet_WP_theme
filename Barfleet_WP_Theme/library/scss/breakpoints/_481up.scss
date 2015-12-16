@@ -22,6 +22,32 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 
+// Ship sprites
+.ship-logo {
+	background-size: $x481iconwidth ($x481iconheight * 6);
+	height: $x481iconheight;
+	width: $x481iconwidth;
+}
+.ship-casual {
+	background-position: 0 0;
+}
+.ship-columbus {
+	background-position: 0 0-($x481iconheight);
+}
+.ship-indycent {
+	background-position: 0 0-($x481iconheight * 2);
+}
+.ship-shameless {
+	background-position: 0 0-($x481iconheight * 3);
+}
+.ship-abandon {
+	background-position: 0 0-($x481iconheight * 4);
+}
+.ship-delirium {
+	background-position: 0 0-($x481iconheight * 5);
+}
+
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
