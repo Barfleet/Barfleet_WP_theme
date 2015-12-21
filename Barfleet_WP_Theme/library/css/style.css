@@ -493,51 +493,51 @@ FONT FACE (IN YOUR FACE)
 	}
 */
 @font-face {
-  font-family: 'TrekDS9';
-  src: url("library/fonts/trekds9/Trek-DS9-Credits-Text.eot");
-  src: url("library/fonts/trekds9/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.woff") format("woff"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.ttf") format("truetype"), url("library/fonts/trekds9/Trek-DS9-Credits-Text.svg#font-name") format("svg");
+  font-family: "Trek";
+  src: url("../fonts/trekds9/Trek-DS9-Credits-Text.eot");
+  src: url("../fonts/trekds9/Trek-DS9-Credits-Text.eot?#iefix") format("embedded-opentype"), url("../fonts/trekds9/Trek-DS9-Credits-Text.woff") format("woff"), url("../fonts/trekds9/Trek-DS9-Credits-Text.ttf") format("truetype"), url("../fonts/trekds9/Trek-DS9-Credits-Text.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSansRegular';
-  src: url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot");
-  src: url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.svg#font-name") format("svg");
+  src: url("../fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/opensans/opensans_regular_macroman/OpenSans-Regular-webfont.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSansBold';
-  src: url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot");
-  src: url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.svg#font-name") format("svg");
+  src: url("../fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot");
+  src: url("../fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.ttf") format("truetype"), url("../fonts/opensans/opensans_bold_macroman/OpenSans-Bold-webfont.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSansItalic';
-  src: url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot");
-  src: url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.svg#font-name") format("svg");
+  src: url("../fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot");
+  src: url("../fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.woff") format("woff"), url("../fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.ttf") format("truetype"), url("../fonts/opensans/opensans_italic_macroman/OpenSans-Italic-webfont.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSansBoldItalic';
-  src: url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot");
-  src: url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.svg#font-name") format("svg");
+  src: url("../fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot");
+  src: url("../fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/opensans/opensans_bolditalic_macroman/OpenSans-BoldItalic-webfont.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSansSemibold';
-  src: url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot");
-  src: url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#font-name") format("svg");
+  src: url("../fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot");
+  src: url("../fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/opensans/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSansSemiboldItalic';
-  src: url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot");
-  src: url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("library/fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg#font-name") format("svg");
+  src: url("../fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot");
+  src: url("../fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("../fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("../fonts/opensans/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg#font-name") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -994,7 +994,7 @@ textarea,
   width: 100%;
   max-width: 400px;
   font-family: "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #eaedf2;
+  background-color: #d2d2d2;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
   input[type="text"]:focus, input[type="text"]:active,
@@ -1030,7 +1030,7 @@ textarea,
   textarea:active,
   .field:focus,
   .field:active {
-    background-color: #f7f8fa;
+    background-color: gainsboro;
     outline: none; }
   input[type="text"].error, input[type="text"].is-invalid,
   input[type="password"].error,
@@ -1276,7 +1276,8 @@ body {
   background-size: 22px 132px;
   display: inline-block;
   height: 22px;
-  width: 22px; }
+  width: 22px;
+  vertical-align: middle; }
 
 .ship-casual {
   background-position: 0 0; }
@@ -1295,6 +1296,12 @@ body {
 
 .ship-delirium {
   background-position: 0 -110px; }
+
+a.ship-link {
+  color: #d2d2d2;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1369,7 +1376,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
 	*/
-  font-family: "TrekDS9", "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Trek", "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* removing text decoration from all headline links */ }
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
     text-decoration: none; }
@@ -1409,7 +1416,7 @@ HEADER STYLES
   position: relative;
   height: 60px;
   width: 100%;
-  z-index: 99; }
+  z-index: 98; }
   .header #inner-header {
     background-color: #091031;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d2879+0,091031+100&amp;0.9+0,0.85+100 */
@@ -1456,7 +1463,7 @@ and more scalable.
   margin: 0 auto;
   height: 16px;
   width: 334px;
-  z-index: 98; }
+  z-index: 99; }
   #header-nav #inner-nav {
     height: 16px;
     position: fixed; }
@@ -1688,7 +1695,7 @@ section.entry-content {
     margin: 0 0 1.5em; }
   .entry-content table {
     width: 100%;
-    border: 1px solid #eaedf2;
+    border: 1px solid #d2d2d2;
     margin-bottom: 1.5em; }
     .entry-content table caption {
       margin: 0 0 7px;
@@ -1697,15 +1704,15 @@ section.entry-content {
       text-transform: uppercase;
       letter-spacing: 1px; }
   .entry-content tr {
-    border-bottom: 1px solid #eaedf2; }
+    border-bottom: 1px solid #d2d2d2; }
   .entry-content td {
     padding: 7px;
-    border-right: 1px solid #eaedf2; }
+    border-right: 1px solid #d2d2d2; }
     .entry-content td:last-child {
       border-right: 0; }
   .entry-content th {
-    border-bottom: 1px solid #eaedf2;
-    border-right: 1px solid #eaedf2; }
+    border-bottom: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; }
     .entry-content th:last-child {
       border-right: 0; }
   .entry-content blockquote {
@@ -1782,7 +1789,7 @@ PAGE NAVI STYLES
     float: left;
     display: inline;
     overflow: hidden;
-    border-right: 1px solid #eaedf2; }
+    border-right: 1px solid #d2d2d2; }
   .pagination a, .pagination span {
     margin: 0;
     text-decoration: none;
@@ -1970,7 +1977,7 @@ FOOTER STYLES
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 99; }
+  z-index: 89; }
   .footer #inner-footer {
     height: 55px;
     width: 274px;

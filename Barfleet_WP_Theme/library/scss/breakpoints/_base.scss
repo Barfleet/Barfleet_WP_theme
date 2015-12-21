@@ -41,6 +41,7 @@ body {
 	display: inline-block;
 	height: $x480iconheight;
 	width: $x480iconwidth;
+	vertical-align: middle;
 }
 .ship-casual {
 	background-position: 0 0;
@@ -59,6 +60,12 @@ body {
 }
 .ship-delirium {
 	background-position: 0 0-($x480iconheight * 5);
+}
+a.ship-link {
+	color: $gray;
+	font-size: 1.2em;
+	font-weight: 600;
+	text-decoration: none;
 }
 
 /********************
@@ -207,7 +214,7 @@ HEADER STYLES
 	position: relative;
 	height: $x480headerheight;
 	width: 100%;
-	z-index: 99;
+	z-index: 98;
 
 	#inner-header {
 		background-color: $bg-color;
@@ -260,7 +267,7 @@ and more scalable.
 	margin: 0 auto;
 	height: $x480navheight;
 	width: $x480width;
-	z-index: 98;
+	z-index: 99;
 
 	#inner-nav {
 		height: $x480navheight;
@@ -1103,7 +1110,7 @@ FOOTER STYLES
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	z-index: 99;
+	z-index: 89;
 
 	#inner-footer {
 		// background-color: $bg-color;
