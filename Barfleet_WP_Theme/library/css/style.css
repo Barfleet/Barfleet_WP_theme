@@ -993,7 +993,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "OpenSansRegular", "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #eaedf2;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
@@ -1257,7 +1257,7 @@ html, #container {
   height: 100%; }
 
 body {
-  font-family: "OpenSansRegular", "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #fff;

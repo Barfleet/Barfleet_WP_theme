@@ -122,13 +122,14 @@ I've edited it a bit, but it's a nice starting point.
 $sans-serif:        "OpenSansRegular", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 
+$headerfonts:       "TrekDS9", $sans-serif;
+$bodyfonts:         $sans-serif;
+
 /*
  I imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
 $lato:              'Lato', $sans-serif;
-$headerfonts:       'TrekDS9', $sans-serif;
-$bodyfonts:         'OpenSansRegular', $sans-serif;
 
 /*
 some nice typographical defaults
