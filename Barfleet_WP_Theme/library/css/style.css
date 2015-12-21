@@ -1444,9 +1444,11 @@ HEADER STYLES
   position: fixed;
   width: 100%; }
   #logo a {
+    color: #fff;
+    opacity: 0;
     width: 100%;
-    display: none;
-    color: #fff; }
+    height: 100%;
+    position: absolute; }
 
 /*********************
 NAVIGATION STYLES
