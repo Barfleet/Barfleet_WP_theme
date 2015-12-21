@@ -1301,7 +1301,8 @@ a.ship-link {
   color: #d2d2d2;
   font-size: 1.2em;
   font-weight: 600;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1579,7 +1580,8 @@ POSTS & CONTENT STYLES
   margin: 0.25em auto 57px auto;
   height: auto;
   position: relative;
-  width: 334px; }
+  width: 334px;
+  z-index: 50; }
   #content h1, #content .h1, #content h2, #content .h2, #content h3, #content .h3, #content h4, #content .h4, #content h5, #content .h5 {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
     background: #142052;
@@ -1977,7 +1979,7 @@ FOOTER STYLES
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 89; }
+  z-index: 10; }
   .footer #inner-footer {
     height: 55px;
     width: 274px;

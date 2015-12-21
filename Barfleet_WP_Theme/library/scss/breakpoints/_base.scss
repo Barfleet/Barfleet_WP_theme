@@ -66,6 +66,7 @@ a.ship-link {
 	font-size: 1.2em;
 	font-weight: 600;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 /********************
@@ -427,6 +428,7 @@ POSTS & CONTENT STYLES
 	height: auto;
 	position: relative;
 	width: $x480width;
+	z-index: 50;
 
 	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
@@ -1110,7 +1112,7 @@ FOOTER STYLES
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	z-index: 89;
+	z-index: 10;
 
 	#inner-footer {
 		// background-color: $bg-color;
