@@ -34,7 +34,7 @@ body {
 }
 
 // Ship sprites
-.ship-logo {
+.ship-logo, .ship-logo-icon {
 	background-image: url('../images/ship_logos_sprite.png');
 	background-repeat: no-repeat;
 	background-size: $x480iconwidth ($x480iconheight * 6);
@@ -43,22 +43,22 @@ body {
 	width: $x480iconwidth;
 	vertical-align: middle;
 }
-.ship-casual {
+.ship-casual, .ship-casual-icon {
 	background-position: 0 0;
 }
-.ship-columbus {
+.ship-columbus, .ship-columbus-icon {
 	background-position: 0 0-($x480iconheight);
 }
-.ship-indycent {
+.ship-indycent, .ship-indycent-icon {
 	background-position: 0 0-($x480iconheight * 2);
 }
-.ship-shameless {
+.ship-shameless, .ship-shameless-icon {
 	background-position: 0 0-($x480iconheight * 3);
 }
-.ship-abandon {
+.ship-abandon, .ship-abandon-icon {
 	background-position: 0 0-($x480iconheight * 4);
 }
-.ship-delirium {
+.ship-delirium, .ship-delirium-icon {
 	background-position: 0 0-($x480iconheight * 5);
 }
 a.ship-link {

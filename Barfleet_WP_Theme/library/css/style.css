@@ -1270,7 +1270,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%; }
 
-.ship-logo {
+.ship-logo, .ship-logo-icon {
   background-image: url("../images/ship_logos_sprite.png");
   background-repeat: no-repeat;
   background-size: 22px 132px;
@@ -1279,22 +1279,22 @@ body {
   width: 22px;
   vertical-align: middle; }
 
-.ship-casual {
+.ship-casual, .ship-casual-icon {
   background-position: 0 0; }
 
-.ship-columbus {
+.ship-columbus, .ship-columbus-icon {
   background-position: 0 -22px; }
 
-.ship-indycent {
+.ship-indycent, .ship-indycent-icon {
   background-position: 0 -44px; }
 
-.ship-shameless {
+.ship-shameless, .ship-shameless-icon {
   background-position: 0 -66px; }
 
-.ship-abandon {
+.ship-abandon, .ship-abandon-icon {
   background-position: 0 -88px; }
 
-.ship-delirium {
+.ship-delirium, .ship-delirium-icon {
   background-position: 0 -110px; }
 
 a.ship-link {
