@@ -1639,7 +1639,7 @@ POSTS & CONTENT STYLES
       padding: 0.25em; }
 
 /* end .hentry */
-section.entry-content {
+section.entry-content, .outerwidget {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
   background: #142052;
   /* Old browsers */
@@ -1656,13 +1656,19 @@ section.entry-content {
   border-color: #1c2b79;
   margin: 0;
   padding: 0.25rem; }
-  section.entry-content .inner-entry-content {
+  section.entry-content .inner-entry-content, section.entry-content .innerwidget, .outerwidget .inner-entry-content, .outerwidget .innerwidget {
     background-color: #222529;
     border-width: 2px;
     border-style: inset;
     border-color: #1c2b79;
-    padding: 1.5rem;
     text-align: justify; }
+  section.entry-content .inner-entry-content, .outerwidget .inner-entry-content {
+    padding: 1.5rem; }
+  section.entry-content .innerwidget, .outerwidget .innerwidget {
+    padding: 0.5em; }
+    section.entry-content .innerwidget h1, section.entry-content .innerwidget h2, section.entry-content .innerwidget h3, section.entry-content .innerwidget h4, section.entry-content .innerwidget h5, section.entry-content .innerwidget h6, .outerwidget .innerwidget h1, .outerwidget .innerwidget h2, .outerwidget .innerwidget h3, .outerwidget .innerwidget h4, .outerwidget .innerwidget h5, .outerwidget .innerwidget h6 {
+      background: none !important;
+      border: none !important; }
 
 .single-title,
 .page-title,
@@ -1957,6 +1963,9 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+.widgettitle {
+  margin-bottom: 0 !important; }
+
 .widget ul li {
   /* deep nesting */ }
 

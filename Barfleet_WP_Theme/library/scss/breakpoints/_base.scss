@@ -496,7 +496,7 @@ POSTS & CONTENT STYLES
 
 } /* end .hentry */
 
-section.entry-content {
+section.entry-content, .outerwidget {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
 	background: rgb(20,32,82); /* Old browsers */
 	background: -moz-linear-gradient(left,  rgba(20,32,82,1) 0%, rgba(88,111,152,1) 50%, rgba(20,32,82,1) 100%); /* FF3.6-15 */
@@ -509,13 +509,22 @@ section.entry-content {
 	margin: 0;
 	padding: 0.25rem;
 
-	.inner-entry-content {
+	.inner-entry-content, .innerwidget {
 		background-color: #222529;
 		border-width: 2px;
 		border-style: inset;
 		border-color: #1c2b79;
-		padding: 1.5rem;
 		text-align: justify;
+	}
+	.inner-entry-content {
+		padding: 1.5rem;
+	}
+	.innerwidget {
+		padding: 0.5em;
+		h1, h2, h3, h4, h5, h6 {
+			background: none !important;
+			border: none !important;
+		}
 	}
 }
 		.single-title,
@@ -1065,7 +1074,9 @@ SIDEBARS & ASIDES
 
 .sidebar {}
 
-	.widgettitle {}
+	.widgettitle {
+		margin-bottom: 0 !important;
+	}
 
 	.widget {
 
