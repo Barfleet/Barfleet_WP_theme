@@ -107,12 +107,16 @@ them however you see fit.
 
 	.t-1of3 {
 		@include grid-col;
-		width: 33.33%;
+		@media only screen {
+			width: 33.33%;
+		}
 	}
 
 	.t-2of3 {
 		@include grid-col;
-		width: 66.66%;
+		@media only screen {
+			width: 66.66%;
+		}
 	}
 
 	.t-1of4 {

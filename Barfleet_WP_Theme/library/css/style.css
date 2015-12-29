@@ -833,8 +833,7 @@ them however you see fit.
 @media (min-width: 768px) and (max-width: 1029px) {
   .t-1of3 {
     float: left;
-    padding-right: 2px;
-    width: 33.33%; } }
+    padding-right: 2px; } }
   @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
     .t-1of3 {
       padding-right: 6px; } }
@@ -847,12 +846,14 @@ them however you see fit.
   @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
     .t-1of3 {
       padding-right: 16px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) {
+    .t-1of3 {
+      width: 33.33%; } }
 
 @media (min-width: 768px) and (max-width: 1029px) {
   .t-2of3 {
     float: left;
-    padding-right: 2px;
-    width: 66.66%; } }
+    padding-right: 2px; } }
   @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
     .t-2of3 {
       padding-right: 6px; } }
@@ -865,6 +866,9 @@ them however you see fit.
   @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
     .t-2of3 {
       padding-right: 16px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) {
+    .t-2of3 {
+      width: 66.66%; } }
 
 @media (min-width: 768px) and (max-width: 1029px) {
   .t-1of4 {
@@ -2001,7 +2005,6 @@ and more scalable.
     display: inline-block;
     margin: 0 2px;
     height: 14px;
-    width: 274px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
     background: #222529;
     /* Old browsers */
@@ -2014,6 +2017,9 @@ and more scalable.
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222529', endColorstr='#191b1f',GradientType=0 );
     /* IE6-9 */
     font-size: 0.28em; }
+    @media only screen {
+      #header-nav .top-nav {
+        width: 274px; } }
     #header-nav .top-nav li {
       display: inline-block; }
       #header-nav .top-nav li ul.sub-menu li,
@@ -2108,8 +2114,10 @@ POSTS & CONTENT STYLES
   margin: 0.25em auto 57px auto;
   height: auto;
   position: relative;
-  width: 334px;
   z-index: 50; }
+  @media only screen {
+    #content {
+      width: 334px; } }
   #content h1, #content .h1, #content h2, #content .h2, #content h3, #content .h3, #content h4, #content .h4, #content h5, #content .h5 {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
     background: #142052;
@@ -2129,8 +2137,10 @@ POSTS & CONTENT STYLES
 
 #inner-content {
   position: relative;
-  height: auto;
-  width: 274px; }
+  height: auto; }
+  @media only screen {
+    #inner-content {
+      width: 274px; } }
 
 .content-lcars {
   border: 1px solid #3558f8;
@@ -2588,7 +2598,12 @@ TRIBE EVENT STYLES
   color: #fff;
   text-shadow: none; }
 
-.tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-] > a, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
+  background: #8793a7; }
+  #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a:hover {
+    background: #6c7c93; }
+
+.tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-] > a {
   background: #525e70; }
 
 #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth {
