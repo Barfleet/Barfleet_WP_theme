@@ -200,13 +200,16 @@ POSTS & CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-.footer {
+.footer-bg {
 	background-image: url("../images/barfleet_footer_481.png");
 	height: $x481footerheight;
-
+}
+.footer {
 	#inner-footer {
-		height: $x481footerheight;
-		width: $x481innerwidth;
+		background-image: url("../images/barfleet_footer_481.png");
+		width: $x481width;
+		margin-left: -$x481width/2;
+		padding: 0 ($x481lcarswidth + 2 + $x481navmargin);
 	}
 }
 

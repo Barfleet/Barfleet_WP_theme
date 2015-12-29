@@ -1101,11 +1101,7 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
-.footer {
-	clear: both;
-	// background-color: $black;
-	// color: $light-gray;
-
+.footer-bg {
 	background-image: url("../images/barfleet_footer_480.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -1115,17 +1111,27 @@ FOOTER STYLES
 	bottom: 0;
 	width: 100%;
 	z-index: 10;
+}
+.footer {
+	clear: both;
+	// background-color: $black;
+	// color: $light-gray;
+	margin: auto 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 97;
 
 	#inner-footer {
-		// background-color: $bg-color;
-		// /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d2879+0,091031+100&amp;0.9+0,0.85+100 */
-		// background: -moz-linear-gradient(top, rgba(29,40,121,0.9) 0%, rgba(9,16,49,0.85) 100%); /* FF3.6-15 */
-		// background: -webkit-linear-gradient(top, rgba(29,40,121,0.9) 0%,rgba(9,16,49,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
-		// background: linear-gradient(to bottom, rgba(29,40,121,0.9) 0%,rgba(9,16,49,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e61d2879', endColorstr='#d9091031',GradientType=0 ); /* IE6-9 */
-		height: $x480footerheight;
-		width: $x480innerwidth;
-		position: fixed;
+		background-image: url("../images/barfleet_footer_480.png");
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		width: $x480width;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left: -$x480width/2;
+		padding: 0 ($x480lcarswidth + 2 + $x480navmargin);
 	}
 
 	.wrap {
@@ -1154,4 +1160,6 @@ view.
 } /* end .footer-links */
 
 
-.copyright {}
+.copyright {
+	font-size: 0.75em;
+}

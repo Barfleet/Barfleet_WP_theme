@@ -98,13 +98,16 @@ on larger screens.
 	width: $x1240lcarswidth;
 }
 
-.footer {
+.footer-bg {
 	background-image: url("../images/barfleet_footer_1240.png");
 	height: $x1240footerheight;
-
+}
+.footer {
 	#inner-footer {
-		height: $x1240footerheight;
-		width: $x1240innerwidth;
+		background-image: url("../images/barfleet_footer_1240.png");
+		width: $x1240width;
+		margin-left: -$x1240width/2;
+		padding: 0 ($x1240lcarswidth + 2 + $x1240navmargin);
 	}
 }
 

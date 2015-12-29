@@ -344,13 +344,16 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
-.footer {
+.footer-bg {
 	background-image: url("../images/barfleet_footer_768.png");
 	height: $x768footerheight;
-
+}
+.footer {
 	#inner-footer {
-		height: $x768footerheight;
-		width: $x768innerwidth;
+		background-image: url("../images/barfleet_footer_768.png");
+		width: $x768width;
+		margin-left: -$x768width/2;
+		padding: 0 ($x768lcarswidth + 2 + $x768navmargin);
 	}
 }
 

@@ -103,13 +103,16 @@ body {
 	width: $x1030lcarswidth;
 }
 
-.footer {
+.footer-bg {
 	background-image: url("../images/barfleet_footer_1030.png");
 	height: $x1030footerheight;
-
+}
+.footer {
 	#inner-footer {
-		height: $x1030footerheight;
-		width: $x1030innerwidth;
+		background-image: url("../images/barfleet_footer_1030.png");
+		width: $x1030width;
+		margin-left: -$x1030width/2;
+		padding: 0 ($x1030lcarswidth + 2 + $x1030navmargin);
 	}
 }
 
