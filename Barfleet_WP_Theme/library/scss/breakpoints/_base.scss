@@ -63,7 +63,7 @@ body {
 }
 a.ship-link {
 	color: $gray;
-	font-size: 1.2em;
+	font-size: 1.0em;
 	font-weight: 600;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -280,7 +280,7 @@ and more scalable.
 	.top-nav {
 		border: 1px solid #191b1f;
 		display: inline-block;
-		margin: 0 $x480navmargin;
+		margin: 0 $x480hmargin;
 		height: ($x480navheight - 2);
 		width: $x480innerwidth;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222529+0,191b1f+100 */
@@ -310,7 +310,7 @@ and more scalable.
 			}
 		}
 		a {
-			padding: ($x480navmargin / 2);
+			padding: ($x480hmargin / 2);
 			&:hover, &:active {
 				text-decoration: none;
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7090ca+0,7090ca+100&amp;0+80,0.73+100 */
@@ -323,7 +323,7 @@ and more scalable.
 				content: "";
 				width: 0;
 				height: 1.0em;
-				left: ($x480navmargin / 2);
+				left: ($x480hmargin / 2);
 				position: relative;
 				border-right: 1px solid #000;
 			}
@@ -426,7 +426,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin: 0.25em auto ($x480footerheight + $x480navmargin) auto;
+	margin: 0.25em auto ($x480footerheight + $x480hmargin) auto;
 	height: auto;
 	position: relative;
 	width: $x480width;
@@ -524,6 +524,20 @@ section.entry-content, .outerwidget {
 		h1, h2, h3, h4, h5, h6 {
 			background: none !important;
 			border: none !important;
+			font-size: 96%;
+			a, a:visited {
+				color: $link-color;
+
+				/* on hover */
+				&:hover, &:focus {
+					color: $link-hover;
+				}
+
+				/* on click */
+				&:active {
+
+				}
+			}
 		}
 	}
 }
@@ -1081,9 +1095,7 @@ SIDEBARS & ASIDES
 	.widget {
 
 		ul {
-
 			li {
-
 				&:first-child {}
 
 				&:last-child {}
@@ -1094,7 +1106,9 @@ SIDEBARS & ASIDES
 				ul {}
 
 			}
-
+		}
+		ul, ol {
+			margin: 0 0 0.5em 0;
 		}
 
 	}
@@ -1142,7 +1156,7 @@ FOOTER STYLES
 		bottom: 0;
 		left: 50%;
 		margin-left: -$x480width/2;
-		padding: 0 ($x480lcarswidth + 2 + $x480navmargin);
+		padding: 0 ($x480lcarswidth + 2 + $x480hmargin);
 	}
 
 	.wrap {
@@ -1173,4 +1187,32 @@ view.
 
 .copyright {
 	font-size: 0.75em;
+}
+
+/******************************************************************
+TRIBE EVENT STYLES
+******************************************************************/
+
+#tribe-bar-form {
+	background: lighten($black, 9%);
+}
+#tribe-bar-collapse-toggle {
+	background: $black;
+}
+.tribe-bar-views-inner {
+	background: lighten($black, 27%);
+}
+.tribe-events-list-separator-month span, .tribe-events-notices {
+	background-color: $bg-color;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d2879+0,091031+100&amp;0.9+0,0.85+100 */
+	background: -moz-linear-gradient(top,  rgba(29,40,121,0.9) 0%, rgba(9,16,49,0.85) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(29,40,121,0.9) 0%,rgba(9,16,49,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(29,40,121,0.9) 0%,rgba(9,16,49,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e61d2879', endColorstr='#d9091031',GradientType=0 ); /* IE6-9 */
+}
+.tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-]>a {
+	background: lighten($black, 15%);
+}
+#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth {
+	background: $bg-color;
 }

@@ -686,165 +686,691 @@ them however you see fit.
 @media (max-width: 767px) {
   .m-all {
     float: left;
-    padding-right: 0.75em;
+    padding-right: 2px;
     width: 100%;
-    padding-right: 0; }
+    padding-right: 0; } }
+  @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .m-all {
+      padding-right: 6px; } }
+  @media only screen and (max-width: 767px) and (min-width: 768px) {
+    .m-all {
+      padding-right: 10px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1030px) {
+    .m-all {
+      padding-right: 14px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1240px) {
+    .m-all {
+      padding-right: 16px; } }
+
+@media (max-width: 767px) {
   .m-1of2 {
     float: left;
-    padding-right: 0.75em;
-    width: 50%; }
+    padding-right: 2px;
+    width: 50%; } }
+  @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .m-1of2 {
+      padding-right: 6px; } }
+  @media only screen and (max-width: 767px) and (min-width: 768px) {
+    .m-1of2 {
+      padding-right: 10px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1030px) {
+    .m-1of2 {
+      padding-right: 14px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1240px) {
+    .m-1of2 {
+      padding-right: 16px; } }
+
+@media (max-width: 767px) {
   .m-1of3 {
     float: left;
-    padding-right: 0.75em;
-    width: 33.33%; }
+    padding-right: 2px;
+    width: 33.33%; } }
+  @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .m-1of3 {
+      padding-right: 6px; } }
+  @media only screen and (max-width: 767px) and (min-width: 768px) {
+    .m-1of3 {
+      padding-right: 10px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1030px) {
+    .m-1of3 {
+      padding-right: 14px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1240px) {
+    .m-1of3 {
+      padding-right: 16px; } }
+
+@media (max-width: 767px) {
   .m-2of3 {
     float: left;
-    padding-right: 0.75em;
-    width: 66.66%; }
+    padding-right: 2px;
+    width: 66.66%; } }
+  @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .m-2of3 {
+      padding-right: 6px; } }
+  @media only screen and (max-width: 767px) and (min-width: 768px) {
+    .m-2of3 {
+      padding-right: 10px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1030px) {
+    .m-2of3 {
+      padding-right: 14px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1240px) {
+    .m-2of3 {
+      padding-right: 16px; } }
+
+@media (max-width: 767px) {
   .m-1of4 {
     float: left;
-    padding-right: 0.75em;
-    width: 25%; }
+    padding-right: 2px;
+    width: 25%; } }
+  @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .m-1of4 {
+      padding-right: 6px; } }
+  @media only screen and (max-width: 767px) and (min-width: 768px) {
+    .m-1of4 {
+      padding-right: 10px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1030px) {
+    .m-1of4 {
+      padding-right: 14px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1240px) {
+    .m-1of4 {
+      padding-right: 16px; } }
+
+@media (max-width: 767px) {
   .m-3of4 {
     float: left;
-    padding-right: 0.75em;
+    padding-right: 2px;
     width: 75%; } }
+  @media only screen and (max-width: 767px) and (min-width: 481px) {
+    .m-3of4 {
+      padding-right: 6px; } }
+  @media only screen and (max-width: 767px) and (min-width: 768px) {
+    .m-3of4 {
+      padding-right: 10px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1030px) {
+    .m-3of4 {
+      padding-right: 14px; } }
+  @media only screen and (max-width: 767px) and (min-width: 1240px) {
+    .m-3of4 {
+      padding-right: 16px; } }
 
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
   .t-all {
     float: left;
-    padding-right: 0.75em;
+    padding-right: 2px;
     width: 100%;
-    padding-right: 0; }
+    padding-right: 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-all {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-all {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-all {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-all {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-1of2 {
     float: left;
-    padding-right: 0.75em;
-    width: 50%; }
+    padding-right: 2px;
+    width: 50%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-1of2 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-1of2 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-1of2 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-1of2 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-1of3 {
     float: left;
-    padding-right: 0.75em;
-    width: 33.33%; }
+    padding-right: 2px;
+    width: 33.33%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-1of3 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-1of3 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-1of3 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-1of3 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-2of3 {
     float: left;
-    padding-right: 0.75em;
-    width: 66.66%; }
+    padding-right: 2px;
+    width: 66.66%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-2of3 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-2of3 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-2of3 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-2of3 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-1of4 {
     float: left;
-    padding-right: 0.75em;
-    width: 25%; }
+    padding-right: 2px;
+    width: 25%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-1of4 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-1of4 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-1of4 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-1of4 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-3of4 {
     float: left;
-    padding-right: 0.75em;
-    width: 75%; }
+    padding-right: 2px;
+    width: 75%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-3of4 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-3of4 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-3of4 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-3of4 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-1of5 {
     float: left;
-    padding-right: 0.75em;
-    width: 20%; }
+    padding-right: 2px;
+    width: 20%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-1of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-1of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-1of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-1of5 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-2of5 {
     float: left;
-    padding-right: 0.75em;
-    width: 40%; }
+    padding-right: 2px;
+    width: 40%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-2of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-2of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-2of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-2of5 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-3of5 {
     float: left;
-    padding-right: 0.75em;
-    width: 60%; }
+    padding-right: 2px;
+    width: 60%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-3of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-3of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-3of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-3of5 {
+      padding-right: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1029px) {
   .t-4of5 {
     float: left;
-    padding-right: 0.75em;
+    padding-right: 2px;
     width: 80%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 481px) {
+    .t-4of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 768px) {
+    .t-4of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1030px) {
+    .t-4of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1029px) and (min-width: 1240px) {
+    .t-4of5 {
+      padding-right: 16px; } }
 
 /* Landscape to small desktop */
 @media (min-width: 1030px) {
   .d-all {
     float: left;
-    padding-right: 0.75em;
+    padding-right: 2px;
     width: 100%;
-    padding-right: 0; }
+    padding-right: 0; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-all {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-all {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-all {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-all {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of2 {
     float: left;
-    padding-right: 0.75em;
-    width: 50%; }
+    padding-right: 2px;
+    width: 50%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of2 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of2 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of2 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of2 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of3 {
     float: left;
-    padding-right: 0.75em;
-    width: 33.33%; }
+    padding-right: 2px;
+    width: 33.33%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of3 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of3 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of3 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of3 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-2of3 {
     float: left;
-    padding-right: 0.75em;
-    width: 66.66%; }
+    padding-right: 2px;
+    width: 66.66%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-2of3 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-2of3 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-2of3 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-2of3 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of4 {
     float: left;
-    padding-right: 0.75em;
-    width: 25%; }
+    padding-right: 2px;
+    width: 25%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of4 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of4 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of4 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of4 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-3of4 {
     float: left;
-    padding-right: 0.75em;
-    width: 75%; }
+    padding-right: 2px;
+    width: 75%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-3of4 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-3of4 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-3of4 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-3of4 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of5 {
     float: left;
-    padding-right: 0.75em;
-    width: 20%; }
+    padding-right: 2px;
+    width: 20%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of5 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-2of5 {
     float: left;
-    padding-right: 0.75em;
-    width: 40%; }
+    padding-right: 2px;
+    width: 40%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-2of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-2of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-2of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-2of5 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-3of5 {
     float: left;
-    padding-right: 0.75em;
-    width: 60%; }
+    padding-right: 2px;
+    width: 60%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-3of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-3of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-3of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-3of5 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-4of5 {
     float: left;
-    padding-right: 0.75em;
-    width: 80%; }
+    padding-right: 2px;
+    width: 80%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-4of5 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-4of5 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-4of5 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-4of5 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of6 {
     float: left;
-    padding-right: 0.75em;
-    width: 16.6666666667%; }
+    padding-right: 2px;
+    width: 16.6666666667%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of6 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of6 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of6 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of6 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of7 {
     float: left;
-    padding-right: 0.75em;
-    width: 14.2857142857%; }
+    padding-right: 2px;
+    width: 14.2857142857%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of7 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of7 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of7 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of7 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-2of7 {
     float: left;
-    padding-right: 0.75em;
-    width: 28.5714286%; }
+    padding-right: 2px;
+    width: 28.5714286%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-2of7 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-2of7 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-2of7 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-2of7 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-3of7 {
     float: left;
-    padding-right: 0.75em;
-    width: 42.8571429%; }
+    padding-right: 2px;
+    width: 42.8571429%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-3of7 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-3of7 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-3of7 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-3of7 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-4of7 {
     float: left;
-    padding-right: 0.75em;
-    width: 57.1428572%; }
+    padding-right: 2px;
+    width: 57.1428572%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-4of7 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-4of7 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-4of7 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-4of7 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-5of7 {
     float: left;
-    padding-right: 0.75em;
-    width: 71.4285715%; }
+    padding-right: 2px;
+    width: 71.4285715%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-5of7 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-5of7 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-5of7 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-5of7 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-6of7 {
     float: left;
-    padding-right: 0.75em;
-    width: 85.7142857%; }
+    padding-right: 2px;
+    width: 85.7142857%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-6of7 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-6of7 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-6of7 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-6of7 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of8 {
     float: left;
-    padding-right: 0.75em;
-    width: 12.5%; }
+    padding-right: 2px;
+    width: 12.5%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of8 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of8 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of8 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of8 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of9 {
     float: left;
-    padding-right: 0.75em;
-    width: 11.1111111111%; }
+    padding-right: 2px;
+    width: 11.1111111111%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of9 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of9 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of9 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of9 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of10 {
     float: left;
-    padding-right: 0.75em;
-    width: 10%; }
+    padding-right: 2px;
+    width: 10%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of10 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of10 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of10 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of10 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of11 {
     float: left;
-    padding-right: 0.75em;
-    width: 9.09090909091%; }
+    padding-right: 2px;
+    width: 9.09090909091%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of11 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of11 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of11 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of11 {
+      padding-right: 16px; } }
+
+@media (min-width: 1030px) {
   .d-1of12 {
     float: left;
-    padding-right: 0.75em;
+    padding-right: 2px;
     width: 8.33%; } }
+  @media only screen and (min-width: 1030px) and (min-width: 481px) {
+    .d-1of12 {
+      padding-right: 6px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 768px) {
+    .d-1of12 {
+      padding-right: 10px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1030px) {
+    .d-1of12 {
+      padding-right: 14px; } }
+  @media only screen and (min-width: 1030px) and (min-width: 1240px) {
+    .d-1of12 {
+      padding-right: 16px; } }
 
 /*********************
 IMPORTING MODULES
@@ -1299,7 +1825,7 @@ body {
 
 a.ship-link {
   color: #d2d2d2;
-  font-size: 1.2em;
+  font-size: 1.0em;
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase; }
@@ -1668,7 +2194,14 @@ section.entry-content, .outerwidget {
     padding: 0.5em; }
     section.entry-content .innerwidget h1, section.entry-content .innerwidget h2, section.entry-content .innerwidget h3, section.entry-content .innerwidget h4, section.entry-content .innerwidget h5, section.entry-content .innerwidget h6, .outerwidget .innerwidget h1, .outerwidget .innerwidget h2, .outerwidget .innerwidget h3, .outerwidget .innerwidget h4, .outerwidget .innerwidget h5, .outerwidget .innerwidget h6 {
       background: none !important;
-      border: none !important; }
+      border: none !important;
+      font-size: 96%; }
+      section.entry-content .innerwidget h1 a, section.entry-content .innerwidget h1 a:visited, section.entry-content .innerwidget h2 a, section.entry-content .innerwidget h2 a:visited, section.entry-content .innerwidget h3 a, section.entry-content .innerwidget h3 a:visited, section.entry-content .innerwidget h4 a, section.entry-content .innerwidget h4 a:visited, section.entry-content .innerwidget h5 a, section.entry-content .innerwidget h5 a:visited, section.entry-content .innerwidget h6 a, section.entry-content .innerwidget h6 a:visited, .outerwidget .innerwidget h1 a, .outerwidget .innerwidget h1 a:visited, .outerwidget .innerwidget h2 a, .outerwidget .innerwidget h2 a:visited, .outerwidget .innerwidget h3 a, .outerwidget .innerwidget h3 a:visited, .outerwidget .innerwidget h4 a, .outerwidget .innerwidget h4 a:visited, .outerwidget .innerwidget h5 a, .outerwidget .innerwidget h5 a:visited, .outerwidget .innerwidget h6 a, .outerwidget .innerwidget h6 a:visited {
+        color: #647ac1;
+        /* on hover */
+        /* on click */ }
+        section.entry-content .innerwidget h1 a:hover, section.entry-content .innerwidget h1 a:focus, section.entry-content .innerwidget h1 a:visited:hover, section.entry-content .innerwidget h1 a:visited:focus, section.entry-content .innerwidget h2 a:hover, section.entry-content .innerwidget h2 a:focus, section.entry-content .innerwidget h2 a:visited:hover, section.entry-content .innerwidget h2 a:visited:focus, section.entry-content .innerwidget h3 a:hover, section.entry-content .innerwidget h3 a:focus, section.entry-content .innerwidget h3 a:visited:hover, section.entry-content .innerwidget h3 a:visited:focus, section.entry-content .innerwidget h4 a:hover, section.entry-content .innerwidget h4 a:focus, section.entry-content .innerwidget h4 a:visited:hover, section.entry-content .innerwidget h4 a:visited:focus, section.entry-content .innerwidget h5 a:hover, section.entry-content .innerwidget h5 a:focus, section.entry-content .innerwidget h5 a:visited:hover, section.entry-content .innerwidget h5 a:visited:focus, section.entry-content .innerwidget h6 a:hover, section.entry-content .innerwidget h6 a:focus, section.entry-content .innerwidget h6 a:visited:hover, section.entry-content .innerwidget h6 a:visited:focus, .outerwidget .innerwidget h1 a:hover, .outerwidget .innerwidget h1 a:focus, .outerwidget .innerwidget h1 a:visited:hover, .outerwidget .innerwidget h1 a:visited:focus, .outerwidget .innerwidget h2 a:hover, .outerwidget .innerwidget h2 a:focus, .outerwidget .innerwidget h2 a:visited:hover, .outerwidget .innerwidget h2 a:visited:focus, .outerwidget .innerwidget h3 a:hover, .outerwidget .innerwidget h3 a:focus, .outerwidget .innerwidget h3 a:visited:hover, .outerwidget .innerwidget h3 a:visited:focus, .outerwidget .innerwidget h4 a:hover, .outerwidget .innerwidget h4 a:focus, .outerwidget .innerwidget h4 a:visited:hover, .outerwidget .innerwidget h4 a:visited:focus, .outerwidget .innerwidget h5 a:hover, .outerwidget .innerwidget h5 a:focus, .outerwidget .innerwidget h5 a:visited:hover, .outerwidget .innerwidget h5 a:visited:focus, .outerwidget .innerwidget h6 a:hover, .outerwidget .innerwidget h6 a:focus, .outerwidget .innerwidget h6 a:visited:hover, .outerwidget .innerwidget h6 a:visited:focus {
+          color: #4760b1; }
 
 .single-title,
 .page-title,
@@ -1969,6 +2502,9 @@ SIDEBARS & ASIDES
 .widget ul li {
   /* deep nesting */ }
 
+.widget ul, .widget ol {
+  margin: 0 0 0.5em 0; }
+
 .no-widgets {
   background-color: #fff;
   padding: 1.5em;
@@ -2025,6 +2561,9 @@ view.
 .copyright {
   font-size: 0.75em; }
 
+/******************************************************************
+TRIBE EVENT STYLES
+******************************************************************/
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2324,14 +2863,8 @@ NAVIGATION STYLES
   /*********************
 SIDEBARS & ASIDES
 *********************/
-  .sidebar {
-    margin-top: 2.2em; }
-  .widgettitle {
-    border-bottom: 2px solid #444;
-    margin-bottom: 0.75em; }
-  .widget {
-    padding: 0 10px;
-    margin: 2.2em 0; }
+  .widget ul {
+    padding-left: 1em; }
     .widget ul li {
       margin-bottom: 0.75em;
       /* deep nesting */ }

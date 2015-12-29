@@ -83,14 +83,14 @@ NAVIGATION STYLES
 		height: $x481navheight;
 	}
 	.top-nav {
-		margin: 0 $x481navmargin;
+		margin: 0 $x481hmargin;
 		height: ($x481navheight - 2);
 		width: $x481innerwidth;
 		font-size: 0.5em;
 		a {
-			padding: ($x481navmargin / 2);
+			padding: ($x481hmargin / 2);
 			&:after {
-				left: ($x481navmargin / 2);
+				left: ($x481hmargin / 2);
 			}
 		}
 	}
@@ -113,7 +113,7 @@ NAVIGATION STYLES
 	width: $x481lcarswidth;
 }
 #content {
-	margin: 0.25em auto ($x481footerheight + $x481navmargin) auto;
+	margin: 0.25em auto ($x481footerheight + $x481hmargin) auto;
 	width: $x481width;
 }
 #inner-content {
@@ -209,7 +209,7 @@ FOOTER STYLES
 		background-image: url("../images/barfleet_footer_481.png");
 		width: $x481width;
 		margin-left: -$x481width/2;
-		padding: 0 ($x481lcarswidth + 2 + $x481navmargin);
+		padding: 0 ($x481lcarswidth + 2 + $x481hmargin);
 	}
 }
 

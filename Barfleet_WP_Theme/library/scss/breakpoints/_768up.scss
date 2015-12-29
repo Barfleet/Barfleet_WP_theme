@@ -82,7 +82,7 @@ NAVIGATION STYLES
 		height: $x768navheight;
 	}
 	.top-nav {
-		margin: 0 $x768navmargin;
+		margin: 0 $x768hmargin;
 		height: ($x768navheight - 2);
 		width: $x768innerwidth;
 		font-size: 0.78em;
@@ -101,9 +101,9 @@ NAVIGATION STYLES
 			}
 		}
 		a {
-			padding: ($x768navmargin / 2);
+			padding: ($x768hmargin / 2);
 			&:after {
-				left: ($x768navmargin / 2);
+				left: ($x768hmargin / 2);
 			}
 		}
 	}
@@ -114,7 +114,7 @@ NAVIGATION STYLES
 	width: $x768lcarswidth;
 }
 #content {
-	margin: 0.25em auto ($x768footerheight + $x768navmargin) auto;
+	margin: 0.25em auto ($x768footerheight + $x768hmargin) auto;
 	width: $x768width;
 }
 #inner-content {
@@ -221,20 +221,15 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {
-	margin-top: 2.2em;
-}
+.sidebar {}
 
 	.widgettitle {
-		border-bottom: 2px solid #444;
-		margin-bottom: 0.75em;
 	}
 
 	.widget {
-		padding: 0 10px;
-		margin: 2.2em 0;
 
 		ul {
+			padding-left: 1em;
 			li {
 				margin-bottom: 0.75em;
 
@@ -353,7 +348,7 @@ FOOTER STYLES
 		background-image: url("../images/barfleet_footer_768.png");
 		width: $x768width;
 		margin-left: -$x768width/2;
-		padding: 0 ($x768lcarswidth + 2 + $x768navmargin);
+		padding: 0 ($x768lcarswidth + 2 + $x768hmargin);
 	}
 }
 
