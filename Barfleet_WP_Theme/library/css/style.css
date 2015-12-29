@@ -1660,10 +1660,10 @@ section.entry-content, .outerwidget {
     background-color: #222529;
     border-width: 2px;
     border-style: inset;
-    border-color: #1c2b79;
-    text-align: justify; }
+    border-color: #1c2b79; }
   section.entry-content .inner-entry-content, .outerwidget .inner-entry-content {
-    padding: 1.5rem; }
+    padding: 1.5rem;
+    text-align: justify; }
   section.entry-content .innerwidget, .outerwidget .innerwidget {
     padding: 0.5em; }
     section.entry-content .innerwidget h1, section.entry-content .innerwidget h2, section.entry-content .innerwidget h3, section.entry-content .innerwidget h4, section.entry-content .innerwidget h5, section.entry-content .innerwidget h6, .outerwidget .innerwidget h1, .outerwidget .innerwidget h2, .outerwidget .innerwidget h3, .outerwidget .innerwidget h4, .outerwidget .innerwidget h5, .outerwidget .innerwidget h6 {
