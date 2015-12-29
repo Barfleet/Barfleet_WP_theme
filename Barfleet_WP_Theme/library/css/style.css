@@ -2564,6 +2564,39 @@ view.
 /******************************************************************
 TRIBE EVENT STYLES
 ******************************************************************/
+#tribe-bar-form {
+  background: #323944; }
+
+#tribe-bar-collapse-toggle {
+  background: #1f232a; }
+
+.tribe-bar-views-inner {
+  background: #6c7c93; }
+
+.tribe-events-list-separator-month span, .tribe-events-notices {
+  background-color: #091031;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d2879+0,091031+100&amp;0.9+0,0.85+100 */
+  background: -moz-linear-gradient(top, rgba(29, 40, 121, 0.9) 0%, rgba(9, 16, 49, 0.85) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(29, 40, 121, 0.9) 0%, rgba(9, 16, 49, 0.85) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(29, 40, 121, 0.9) 0%, rgba(9, 16, 49, 0.85) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e61d2879', endColorstr='#d9091031',GradientType=0 );
+  /* IE6-9 */
+  border: 1px solid #1d2c7e;
+  color: #fff;
+  text-shadow: none; }
+
+.tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-] > a, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
+  background: #525e70; }
+
+#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth {
+  background: #091031; }
+
+#tribe-events-content .tribe-events-tooltip h1, #tribe-events-content .tribe-events-tooltip h2, #tribe-events-content .tribe-events-tooltip h3, #tribe-events-content .tribe-events-tooltip h4, #tribe-events-content .tribe-events-tooltip h5, #tribe-events-content .tribe-events-tooltip h6 {
+  color: #fff; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
