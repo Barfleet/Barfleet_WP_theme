@@ -46,6 +46,21 @@ over your project's layout.
 .last-col {
 	float: right;
 	padding-right: 0 !important;
+	&.wiki {
+		padding-left: $x480hmargin;
+		@media only screen and (min-width: 481px) {
+			padding-left: $x481hmargin;
+		}
+		@media only screen and (min-width: 768px) {
+			padding-left: $x768hmargin;
+		}
+		@media only screen and (min-width: 1030px) {
+			padding-left: $x1030hmargin;
+		}
+		@media only screen and (min-width: 1240px) {
+			padding-left: $x1240hmargin;
+		}
+	}
 }
 
 

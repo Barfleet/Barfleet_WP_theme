@@ -676,6 +676,20 @@ over your project's layout.
 .last-col {
   float: right;
   padding-right: 0 !important; }
+  .last-col.wiki {
+    padding-left: 2px; }
+    @media only screen and (min-width: 481px) {
+      .last-col.wiki {
+        padding-left: 6px; } }
+    @media only screen and (min-width: 768px) {
+      .last-col.wiki {
+        padding-left: 10px; } }
+    @media only screen and (min-width: 1030px) {
+      .last-col.wiki {
+        padding-left: 14px; } }
+    @media only screen and (min-width: 1240px) {
+      .last-col.wiki {
+        padding-left: 16px; } }
 
 /*
 Mobile Grid Styles
