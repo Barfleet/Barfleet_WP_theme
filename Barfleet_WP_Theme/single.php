@@ -2,6 +2,7 @@
 
 			<div id="content">
 
+				<div class="content-lcars lcars-left"></div>
 				<div id="inner-content" class="wrap cf">
 
 					<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
@@ -34,7 +35,9 @@
 										<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
 									</header>
 									<section class="entry-content">
-										<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+										<div class="inner-entry-content cf">
+											<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+										</div>
 									</section>
 									<footer class="article-footer">
 											<p><?php _e( 'This is the error message in the single.php template.', 'bonestheme' ); ?></p>
@@ -48,6 +51,7 @@
 					<?php get_sidebar(); ?>
 
 				</div>
+				<div class="content-lcars lcars-right"></div>
 
 			</div>
 

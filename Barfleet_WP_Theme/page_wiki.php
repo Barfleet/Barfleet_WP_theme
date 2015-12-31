@@ -37,9 +37,7 @@
 								<section class="entry-content cf" itemprop="articleBody">
 									<div class="inner-entry-content cf">
 
-										<div class="byline vcard">
-											<?php printf( __( 'Bar-Date', 'bonestheme').' <time class="updated" datetime="%1$s" itemprop="datePublished">%3$s%4$s</time> '.__( 'by',  'bonestheme').' <span class="author">%5$s</span>', get_the_time('Y-m-j'), get_the_time(get_option('date_format')), substr(get_the_time('Y'), 0, 1), substr(get_the_time('Ym.d.H.i'), 2), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
-										</div>
+										<?php bones_show_bardate(); ?>
 
 										<?php
 											// the content (pretty self explanatory huh)

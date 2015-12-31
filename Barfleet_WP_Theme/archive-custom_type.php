@@ -29,16 +29,16 @@
 								<header class="article-header">
 
 									<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p class="byline vcard"><?php
-										printf( __( 'Posted <time class="updated" datetime="%1$s" itemprop="datePublished">%2$s</time> by <span class="author">%3$s</span>', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time( __( 'F jS, Y', 'bonestheme' ) ), get_author_posts_url( get_the_author_meta( 'ID' ) ));
-									?></p>
 
 								</header>
 
 								<section class="entry-content cf">
+									<div class="inner-entry-content cf">
+										<?php bones_show_bardate(); ?>
 
-									<?php the_excerpt(); ?>
+										<?php the_excerpt(); ?>
 
+									</div>
 								</section>
 
 								<footer class="article-footer">

@@ -190,6 +190,32 @@ function bones_register_sidebars() {
 	*/
 } // don't remove this bracket!
 
+/************* BARDATE *********************/
+
+// Bardate
+function bones_show_bardate() {
+  ?>
+  <div class="byline vcard">
+    <?php printf( __( 'Bar-Date', 'bonestheme').' <time class="updated" datetime="%1$s" itemprop="datePublished">%3$s%4$s</time> '.__( 'by',  'bonestheme').' <span class="author">%5$s</span>', get_the_time('Y-m-j'), get_the_time(get_option('date_format')), substr(get_the_time('Y'), 0, 1), substr(get_the_time('Ym.d.H.i'), 2), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
+  </div>
+  <?php
+} // don't remove this bracket!
+
+function bones_show_bardate_meta() {
+  ?>
+  <div class="byline entry-meta vcard">
+    <?php printf( __( 'Bar-Date', 'bonestheme').' <time class="updated entry-time" datetime="%1$s" itemprop="datePublished">%3$s%4$s</time> <span class="by">'.__('by', 'bonestheme').'</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">%5$s</span>', get_the_time('Y-m-j'), get_the_time(get_option('date_format')), substr(get_the_time('Y'), 0, 1), substr(get_the_time('Ym.d.H.i'), 2), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
+  </div>
+  <?php
+} // don't remove this bracket!
+
+function bones_show_bardate_filed() {
+  ?>
+  <div class="byline vcard">
+    <?php printf( __( 'Bar-Date', 'bonestheme').' <time class="updated" datetime="%1$s" itemprop="datePublished">%3$s%4$s</time> '.__( 'by',  'bonestheme').__(' <span class="author">%5$s</span> <span class="amp">&</span> filed under %6$s.', 'bonestheme'), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), substr(get_the_time('Y'), 0, 1), get_the_time('ym.d.H.i'), bones_get_the_author_posts_link(), get_the_term_list( get_the_ID(), 'custom_cat', "", ", ", "" )); ?>
+  </div>
+  <?php
+} // don't remove this bracket!
 
 /************* COMMENT LAYOUT *********************/
 
