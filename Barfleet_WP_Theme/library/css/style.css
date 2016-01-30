@@ -1933,11 +1933,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
       color: #bcbcbc; }
 
 h1, .h1 {
-  font-size: 2.5em;
+  font-size: 2.0em;
   line-height: 1.25em; }
 
 h2, .h2 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   line-height: 1.125em;
   margin-bottom: 0.375em; }
 
@@ -1946,7 +1946,8 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.1em;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: 0; }
 
 h5, .h5 {
   font-size: 0.846em;
@@ -2521,6 +2522,7 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 .widgettitle {
+  margin-top: 0 !important;
   margin-bottom: 0 !important; }
 
 .widget ul li {
