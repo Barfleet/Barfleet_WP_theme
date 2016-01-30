@@ -24,7 +24,7 @@ them in here, they won't work.
 
 // Ship sprites
 .ship-logo {
-	background-size: $x481iconwidth ($x481iconheight * 6);
+	background-size: $x481iconwidth ($x481iconheight * 7);
 	height: $x481iconheight;
 	width: $x481iconwidth;
 }
@@ -46,7 +46,9 @@ them in here, they won't work.
 .ship-delirium {
 	background-position: 0 0-($x481iconheight * 5);
 }
-
+.fleet-level {
+	background-position: 0 0-($x481iconheight * 6);
+}
 
 /*********************
 LAYOUT & GRID STYLES

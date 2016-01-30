@@ -16,7 +16,7 @@ body {
 
 // Ship sprites
 .ship-logo {
-	background-size: $x1030iconwidth ($x1030iconheight * 6);
+	background-size: $x1030iconwidth ($x1030iconheight * 7);
 	height: $x1030iconheight;
 	width: $x1030iconwidth;
 }
@@ -37,6 +37,9 @@ body {
 }
 .ship-delirium {
 	background-position: 0 0-($x1030iconheight * 5);
+}
+.fleet-level {
+	background-position: 0 0-($x1030iconheight * 6);
 }
 
 

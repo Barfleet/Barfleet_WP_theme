@@ -227,7 +227,7 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 .ship-logo {
-  background-size: 27px 162px;
+  background-size: 27px 189px;
   height: 27px;
   width: 27px; }
 
@@ -248,6 +248,9 @@ them in here, they won't work.
 
 .ship-delirium {
   background-position: 0 -135px; }
+
+.fleet-level {
+  background-position: 0 -162px; }
 
 /*********************
 LAYOUT & GRID STYLES
@@ -381,7 +384,7 @@ body {
   background-position: left top; }
 
 .ship-logo {
-  background-size: 45px 270px;
+  background-size: 45px 315px;
   height: 45px;
   width: 45px; }
 
@@ -402,6 +405,9 @@ body {
 
 .ship-delirium {
   background-position: 0 -225px; }
+
+.fleet-level {
+  background-position: 0 -270px; }
 
 /*********************
 LAYOUT & GRID STYLES
@@ -586,7 +592,7 @@ body {
   background-position: center top; }
 
 .ship-logo {
-  background-size: 59px 354px;
+  background-size: 59px 413px;
   height: 59px;
   width: 59px; }
 
@@ -607,6 +613,9 @@ body {
 
 .ship-delirium {
   background-position: 0 -295px; }
+
+.fleet-level {
+  background-position: 0 -354px; }
 
 .wrap {
   width: 1000px; }

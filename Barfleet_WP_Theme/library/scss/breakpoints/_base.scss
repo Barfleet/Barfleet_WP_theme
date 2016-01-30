@@ -37,7 +37,7 @@ body {
 .ship-logo, .ship-logo-icon {
 	background-image: url('../images/ship_logos_sprite.png');
 	background-repeat: no-repeat;
-	background-size: $x480iconwidth ($x480iconheight * 6);
+	background-size: $x480iconwidth ($x480iconheight * 7);
 	display: inline-block;
 	height: $x480iconheight;
 	width: $x480iconwidth;
@@ -60,6 +60,9 @@ body {
 }
 .ship-delirium, .ship-delirium-icon {
 	background-position: 0 0-($x480iconheight * 5);
+}
+.fleet-level, .fleet-level-icon {
+	background-position: 0 0-($x480iconheight * 6);
 }
 a.ship-link {
 	color: $gray;
@@ -448,6 +451,7 @@ POSTS & CONTENT STYLES
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 		text-align: center;
+		text-shadow: 0 -1px 2px #b2b2b2, 0 1px 2px #808080, 0 0 10px #444444, -1px -1px 1px #444444
 	}
 
 }

@@ -1817,7 +1817,7 @@ body {
 .ship-logo, .ship-logo-icon {
   background-image: url("../images/ship_logos_sprite.png");
   background-repeat: no-repeat;
-  background-size: 22px 132px;
+  background-size: 22px 154px;
   display: inline-block;
   height: 22px;
   width: 22px;
@@ -1840,6 +1840,9 @@ body {
 
 .ship-delirium, .ship-delirium-icon {
   background-position: 0 -110px; }
+
+.fleet-level, .fleet-level-icon {
+  background-position: 0 -132px; }
 
 a.ship-link {
   color: #d2d2d2;
@@ -2148,7 +2151,8 @@ POSTS & CONTENT STYLES
     border: 1px solid #1d2c7e;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    text-align: center; }
+    text-align: center;
+    text-shadow: 0 -1px 2px #b2b2b2, 0 1px 2px #808080, 0 0 10px #444444, -1px -1px 1px #444444; }
 
 #inner-content {
   position: relative;
@@ -2691,7 +2695,7 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
   .ship-logo {
-    background-size: 27px 162px;
+    background-size: 27px 189px;
     height: 27px;
     width: 27px; }
   .ship-casual {
@@ -2706,6 +2710,8 @@ them in here, they won't work.
     background-position: 0 -108px; }
   .ship-delirium {
     background-position: 0 -135px; }
+  .fleet-level {
+    background-position: 0 -162px; }
   /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -2832,7 +2838,7 @@ GENERAL STYLES
     background-image: url("../images/barfleet_main_bg.jpg");
     background-position: left top; }
   .ship-logo {
-    background-size: 45px 270px;
+    background-size: 45px 315px;
     height: 45px;
     width: 45px; }
   .ship-casual {
@@ -2847,6 +2853,8 @@ GENERAL STYLES
     background-position: 0 -180px; }
   .ship-delirium {
     background-position: 0 -225px; }
+  .fleet-level {
+    background-position: 0 -270px; }
   /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -3024,7 +3032,7 @@ be seen on the Desktop.
     background-image: url("../images/barfleet_main_bg.jpg");
     background-position: center top; }
   .ship-logo {
-    background-size: 59px 354px;
+    background-size: 59px 413px;
     height: 59px;
     width: 59px; }
   .ship-casual {
@@ -3039,6 +3047,8 @@ be seen on the Desktop.
     background-position: 0 -236px; }
   .ship-delirium {
     background-position: 0 -295px; }
+  .fleet-level {
+    background-position: 0 -354px; }
   .wrap {
     width: 1000px; }
   .header {
@@ -3100,7 +3110,7 @@ on larger screens.
 
 ******************************************************************/
   .ship-logo {
-    background-size: 67px 402px;
+    background-size: 67px 469px;
     height: 67px;
     width: 67px; }
   .ship-casual {
@@ -3115,6 +3125,8 @@ on larger screens.
     background-position: 0 -268px; }
   .ship-delirium {
     background-position: 0 -335px; }
+  .fleet-level {
+    background-position: 0 -402px; }
   .wrap {
     width: 1156px; }
   .header {
