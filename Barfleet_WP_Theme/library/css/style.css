@@ -2133,7 +2133,7 @@ POSTS & CONTENT STYLES
   @media only screen {
     #content {
       width: 334px; } }
-  #content h1, #content .h1, #content h2, #content .h2, #content h3, #content .h3, #content h4, #content .h4, #content h5, #content .h5 {
+  #content .page-title, #content .widgettitle {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
     background: #142052;
     /* Old browsers */
