@@ -2205,7 +2205,7 @@ section.entry-content, .outerwidget {
   border-width: 2px;
   border-style: outset;
   border-color: #1c2b79;
-  margin: 0;
+  margin: 0 0 1.0em;
   padding: 0.25rem; }
   section.entry-content .inner-entry-content, section.entry-content .innerwidget, .outerwidget .inner-entry-content, .outerwidget .innerwidget {
     background-color: #222529;
@@ -2627,6 +2627,12 @@ TRIBE EVENT STYLES
 
 #tribe-events-content .tribe-events-tooltip h1, #tribe-events-content .tribe-events-tooltip h2, #tribe-events-content .tribe-events-tooltip h3, #tribe-events-content .tribe-events-tooltip h4, #tribe-events-content .tribe-events-tooltip h5, #tribe-events-content .tribe-events-tooltip h6 {
   color: #fff; }
+
+.tribe-events-list-widget .tribe-event-title {
+  text-align: left !important; }
+
+.tribe-events-list-widget ol li {
+  margin-bottom: 1.25em; }
 
 .tribe-events-month-event-title {
   background: none !important;

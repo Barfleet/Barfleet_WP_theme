@@ -513,7 +513,7 @@ section.entry-content, .outerwidget {
 	border-width: 2px;
 	border-style: outset;
 	border-color: #1c2b79;
-	margin: 0;
+	margin: 0 0 1.0em;
 	padding: 0.25rem;
 
 	.inner-entry-content, .innerwidget {
@@ -1236,6 +1236,14 @@ TRIBE EVENT STYLES
 #tribe-events-content .tribe-events-tooltip {
 	h1, h2, h3, h4, h5, h6 {
 		color: $white;
+	}
+}
+.tribe-events-list-widget {
+	.tribe-event-title {
+		text-align: left !important;
+	}
+	ol li {
+		margin-bottom: 1.25em;
 	}
 }
 .tribe-events-month-event-title {
