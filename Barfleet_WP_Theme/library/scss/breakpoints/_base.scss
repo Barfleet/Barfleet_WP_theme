@@ -510,15 +510,15 @@ section.entry-content, .outerwidget {
 	background: -webkit-linear-gradient(left,  rgba(20,32,82,1) 0%,rgba(88,111,152,1) 50%,rgba(20,32,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  rgba(20,32,82,1) 0%,rgba(88,111,152,1) 50%,rgba(20,32,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 ); /* IE6-9 */
-	border-width: 2px;
+	border-width: 1px;
 	border-style: outset;
 	border-color: #1c2b79;
-	margin: 0 0 1.0em;
-	padding: 0.25rem;
+	margin: 0.25em 0 1.0em;
+	padding: 0.25em;
 
 	.inner-entry-content, .innerwidget {
 		background-color: #222529;
-		border-width: 2px;
+		border-width: 1px;
 		border-style: inset;
 		border-color: #1c2b79;
 	}

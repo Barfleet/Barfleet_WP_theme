@@ -2202,14 +2202,14 @@ section.entry-content, .outerwidget {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#142052', endColorstr='#142052',GradientType=1 );
   /* IE6-9 */
-  border-width: 2px;
+  border-width: 1px;
   border-style: outset;
   border-color: #1c2b79;
-  margin: 0 0 1.0em;
-  padding: 0.25rem; }
+  margin: 0.25em 0 1.0em;
+  padding: 0.25em; }
   section.entry-content .inner-entry-content, section.entry-content .innerwidget, .outerwidget .inner-entry-content, .outerwidget .innerwidget {
     background-color: #222529;
-    border-width: 2px;
+    border-width: 1px;
     border-style: inset;
     border-color: #1c2b79; }
   section.entry-content .inner-entry-content, .outerwidget .inner-entry-content {
