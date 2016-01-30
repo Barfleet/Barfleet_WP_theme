@@ -40,6 +40,7 @@ body {
 	background-size: $x480iconwidth ($x480iconheight * 7);
 	display: inline-block;
 	height: $x480iconheight;
+	margin-right: 0.25em;
 	width: $x480iconwidth;
 	vertical-align: middle;
 }
@@ -66,7 +67,7 @@ body {
 }
 a.ship-link {
 	color: $gray;
-	font-size: 1.0em;
+	font-size: 0.875em;
 	font-weight: 600;
 	text-decoration: none;
 	text-transform: uppercase;

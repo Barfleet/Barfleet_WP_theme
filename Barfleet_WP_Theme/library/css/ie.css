@@ -617,6 +617,9 @@ body {
 .fleet-level {
   background-position: 0 -354px; }
 
+a.ship-link {
+  font-size: 1.0em; }
+
 .wrap {
   width: 1000px; }
 

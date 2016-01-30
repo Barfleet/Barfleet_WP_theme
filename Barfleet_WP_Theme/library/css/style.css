@@ -1820,6 +1820,7 @@ body {
   background-size: 22px 154px;
   display: inline-block;
   height: 22px;
+  margin-right: 0.25em;
   width: 22px;
   vertical-align: middle; }
 
@@ -1846,7 +1847,7 @@ body {
 
 a.ship-link {
   color: #d2d2d2;
-  font-size: 1.0em;
+  font-size: 0.875em;
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase; }
@@ -3049,6 +3050,8 @@ be seen on the Desktop.
     background-position: 0 -295px; }
   .fleet-level {
     background-position: 0 -354px; }
+  a.ship-link {
+    font-size: 1.0em; }
   .wrap {
     width: 1000px; }
   .header {
