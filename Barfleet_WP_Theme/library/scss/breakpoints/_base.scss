@@ -1244,7 +1244,10 @@ TRIBE EVENT STYLES
 	}
 }
 .tribe-events-calendar {
-	background-color: #ffffff;
+	background-color: $white;
+	thead {
+		border-color: $white;
+	}
 }
 .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-]>a {
 	background: darken($white, 15%);
@@ -1270,6 +1273,7 @@ TRIBE EVENT STYLES
 	border: none !important;
 	border-top-left-radius: 0 !important;
 	border-top-right-radius: 0 !important;
+	font-weight: 700;
 }
 
 
@@ -1294,7 +1298,7 @@ SHIP CATEGORIES
 }
 .cat_shameless {
 	h3.tribe-events-month-event-title a {
-		color: #feb400;
+		color: #d89900;
 	}
 }
 .cat_abandon {
