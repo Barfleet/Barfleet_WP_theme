@@ -156,6 +156,7 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	color: $bf-blue;
 	text-rendering: optimizelegibility;
 	font-weight: 500;
 	/*
@@ -441,6 +442,9 @@ POSTS & CONTENT STYLES
 	}
 	z-index: 50;
 
+	h1.page-title {
+		font-size: 1.75em;
+	}
 	.page-title, .widgettitle {
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
 		background: rgb(20,32,82); /* Old browsers */
@@ -451,6 +455,8 @@ POSTS & CONTENT STYLES
 		border: 1px solid #1d2c7e;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
+		color: #ffffff;
+		padding: 0 0.25em;
 		text-align: center;
 		text-shadow: 0 -1px 2px #b2b2b2, 0 1px 2px #808080, 0 0 10px #444444, -1px -1px 1px #444444
 	}
@@ -1232,15 +1238,18 @@ TRIBE EVENT STYLES
 		background: lighten($black, 27%);
 	}
 }
+.tribe-events-calendar {
+	background-color: #ffffff;
+}
 .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-]>a {
-	background: lighten($black, 15%);
+	background: darken($white, 15%);
 }
 #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth {
 	background: $bg-color;
 }
 #tribe-events-content .tribe-events-tooltip {
 	h1, h2, h3, h4, h5, h6 {
-		color: $white;
+		color: $bf-blue;
 	}
 }
 .tribe-events-list-widget {

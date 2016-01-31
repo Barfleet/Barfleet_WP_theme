@@ -1919,6 +1919,7 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  color: #899ddb;
   text-rendering: optimizelegibility;
   font-weight: 500;
   /*
@@ -2137,6 +2138,8 @@ POSTS & CONTENT STYLES
   @media only screen {
     #content {
       width: 334px; } }
+  #content h1.page-title {
+    font-size: 1.75em; }
   #content .page-title, #content .widgettitle {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#142052+0,586f98+50,142052+100 */
     background: #142052;
@@ -2152,6 +2155,8 @@ POSTS & CONTENT STYLES
     border: 1px solid #1d2c7e;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    color: #ffffff;
+    padding: 0 0.25em;
     text-align: center;
     text-shadow: 0 -1px 2px #b2b2b2, 0 1px 2px #808080, 0 0 10px #444444, -1px -1px 1px #444444; }
 
@@ -2624,14 +2629,17 @@ TRIBE EVENT STYLES
   #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a:hover {
     background: #6c7c93; }
 
+.tribe-events-calendar {
+  background-color: #ffffff; }
+
 .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-] > a {
-  background: #525e70; }
+  background: #d9d9d9; }
 
 #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth {
   background: #091031; }
 
 #tribe-events-content .tribe-events-tooltip h1, #tribe-events-content .tribe-events-tooltip h2, #tribe-events-content .tribe-events-tooltip h3, #tribe-events-content .tribe-events-tooltip h4, #tribe-events-content .tribe-events-tooltip h5, #tribe-events-content .tribe-events-tooltip h6 {
-  color: #fff; }
+  color: #899ddb; }
 
 .tribe-events-list-widget .tribe-event-title {
   text-align: left !important; }
