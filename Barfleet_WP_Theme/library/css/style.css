@@ -2635,8 +2635,8 @@ TRIBE EVENT STYLES
 
 .tribe-events-calendar {
   background-color: #fff; }
-  .tribe-events-calendar thead {
-    border-color: #fff; }
+  .tribe-events-calendar thead th {
+    border: 1px solid #fff !important; }
 
 .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-] > a {
   background: #d9d9d9; }
@@ -2658,7 +2658,7 @@ TRIBE EVENT STYLES
   border: none !important;
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
-  font-weight: 700; }
+  font-weight: 700 !important; }
 
 /******************************************************************
 SHIP CATEGORIES

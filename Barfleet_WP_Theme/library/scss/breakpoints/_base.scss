@@ -1245,8 +1245,8 @@ TRIBE EVENT STYLES
 }
 .tribe-events-calendar {
 	background-color: $white;
-	thead {
-		border-color: $white;
+	thead th {
+		border: 1px solid $white !important;
 	}
 }
 .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-]>a {
@@ -1273,7 +1273,7 @@ TRIBE EVENT STYLES
 	border: none !important;
 	border-top-left-radius: 0 !important;
 	border-top-right-radius: 0 !important;
-	font-weight: 700;
+	font-weight: 700 !important;
 }
 
 
