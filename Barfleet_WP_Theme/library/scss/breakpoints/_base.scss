@@ -434,7 +434,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin: 0.25em auto ($x480footerheight + $x480hmargin) auto;
+	margin: 0.25em auto ($x480hmargin) auto;
 	height: auto;
 	position: relative;
 	@media only screen {
@@ -1159,10 +1159,10 @@ FOOTER STYLES
 	background-repeat: no-repeat;
 	height: $x480footerheight;
 	margin: auto 0;
-	position: fixed;
-	bottom: 0;
+	position: relative;
+	bottom: $x480footerheight;
 	width: 100%;
-	z-index: 10;
+	z-index: 101;
 }
 .footer {
 	clear: both;
@@ -1172,18 +1172,15 @@ FOOTER STYLES
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	z-index: 97;
+	z-index: 9;
 
 	#inner-footer {
-		background-image: url("../images/barfleet_footer_480.png");
-		background-position: center bottom;
-		background-repeat: no-repeat;
 		width: $x480width;
 		position: absolute;
 		bottom: 0;
 		left: 50%;
 		margin-left: -$x480width/2;
-		padding: 0 ($x480lcarswidth + 2 + $x480hmargin);
+		padding: 0 ($x480lcarswidth + 12 + $x480hmargin);
 	}
 
 	.wrap {

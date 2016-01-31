@@ -2131,7 +2131,7 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 #content {
-  margin: 0.25em auto 57px auto;
+  margin: 0.25em auto 2px auto;
   height: auto;
   position: relative;
   z-index: 50; }
@@ -2563,12 +2563,12 @@ FOOTER STYLES
   background-image: url("../images/barfleet_footer_480.png");
   background-position: center bottom;
   background-repeat: no-repeat;
-  height: 55px;
+  height: 57px;
   margin: auto 0;
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  bottom: 57px;
   width: 100%;
-  z-index: 10; }
+  z-index: 101; }
 
 .footer {
   clear: both;
@@ -2576,17 +2576,14 @@ FOOTER STYLES
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 97; }
+  z-index: 9; }
   .footer #inner-footer {
-    background-image: url("../images/barfleet_footer_480.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
     width: 334px;
     position: absolute;
     bottom: 0;
     left: 50%;
     margin-left: -167px;
-    padding: 0 28px; }
+    padding: 0 38px; }
   .footer .wrap {
     margin: 0;
     width: 100%; }
@@ -2770,7 +2767,7 @@ NAVIGATION STYLES
     height: 20px;
     width: 33px; }
   #content {
-    margin: 0.25em auto 81px auto;
+    margin: 0.25em auto 6px auto;
     width: 456px; }
   #inner-content {
     width: 370px; }
@@ -2818,12 +2815,12 @@ FOOTER STYLES
 *********************/
   .footer-bg {
     background-image: url("../images/barfleet_footer_481.png");
-    height: 75px; }
+    height: 78px;
+    bottom: 78px; }
   .footer #inner-footer {
-    background-image: url("../images/barfleet_footer_481.png");
     width: 456px;
     margin-left: -228px;
-    padding: 0 41px; }
+    padding: 0 51px; }
   /*
 check your menus here. do they look good?
 do they need tweaking?
@@ -2925,7 +2922,7 @@ NAVIGATION STYLES
     height: 31px;
     width: 54px; }
   #content {
-    margin: 0.25em auto 133px auto;
+    margin: 0.25em auto 10px auto;
     width: 750px; }
   #inner-content {
     width: 614px; }
@@ -3011,12 +3008,12 @@ FOOTER STYLES
 *********************/
   .footer-bg {
     background-image: url("../images/barfleet_footer_768.png");
-    height: 123px; }
+    height: 128px;
+    bottom: 128px; }
   .footer #inner-footer {
-    background-image: url("../images/barfleet_footer_768.png");
     width: 750px;
     margin-left: -375px;
-    padding: 0 66px; }
+    padding: 0 76px; }
   /*
 you'll probably need to do quite a bit
 of overriding here if you styled them for
@@ -3100,7 +3097,7 @@ be seen on the Desktop.
     height: 40px;
     width: 72px; }
   #content {
-    margin: 0.25em auto 178px auto;
+    margin: 0.25em auto 14px auto;
     width: 1000px; }
   #inner-content {
     width: 820px; }
@@ -3108,12 +3105,12 @@ be seen on the Desktop.
     width: 72px; }
   .footer-bg {
     background-image: url("../images/barfleet_footer_1030.png");
-    height: 164px; }
+    height: 171px;
+    bottom: 171px; }
   .footer #inner-footer {
-    background-image: url("../images/barfleet_footer_1030.png");
     width: 1000px;
     margin-left: -500px;
-    padding: 0 88px; } }
+    padding: 0 98px; } }
 
 /*********************
 LARGE VIEWING SIZE
@@ -3178,7 +3175,7 @@ on larger screens.
     height: 48px;
     width: 83px; }
   #content {
-    margin: 0.25em auto 206px auto;
+    margin: 0.25em auto 16px auto;
     width: 1156px; }
   #inner-content {
     width: 950px; }
@@ -3186,12 +3183,12 @@ on larger screens.
     width: 83px; }
   .footer-bg {
     background-image: url("../images/barfleet_footer_1240.png");
-    height: 190px; }
+    height: 198px;
+    bottom: 198px; }
   .footer #inner-footer {
-    background-image: url("../images/barfleet_footer_1240.png");
     width: 1156px;
     margin-left: -578px;
-    padding: 0 101px; } }
+    padding: 0 111px; } }
 
 /*********************
 RETINA (2x RESOLUTION DEVICES)

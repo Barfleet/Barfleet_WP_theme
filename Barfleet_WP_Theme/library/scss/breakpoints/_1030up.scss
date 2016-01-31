@@ -99,7 +99,7 @@ a.ship-link {
 	width: $x1030lcarswidth;
 }
 #content {
-	margin: 0.25em auto ($x1030footerheight + $x1030hmargin) auto;
+	margin: 0.25em auto ($x1030hmargin) auto;
 	width: $x1030width;
 }
 #inner-content {
@@ -112,13 +112,13 @@ a.ship-link {
 .footer-bg {
 	background-image: url("../images/barfleet_footer_1030.png");
 	height: $x1030footerheight;
+	bottom: $x1030footerheight;
 }
 .footer {
 	#inner-footer {
-		background-image: url("../images/barfleet_footer_1030.png");
 		width: $x1030width;
 		margin-left: -$x1030width/2;
-		padding: 0 ($x1030lcarswidth + 2 + $x1030hmargin);
+		padding: 0 ($x1030lcarswidth + 12 + $x1030hmargin);
 	}
 }
 
