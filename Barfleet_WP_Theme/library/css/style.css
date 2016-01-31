@@ -2171,6 +2171,9 @@ POSTS & CONTENT STYLES
     #inner-content {
       width: 274px; } }
 
+.sponsor {
+  font-size: 90%; }
+
 .content-lcars {
   border: 1px solid #3558f8;
   background-color: #203588;
