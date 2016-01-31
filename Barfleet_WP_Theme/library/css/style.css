@@ -2166,7 +2166,8 @@ POSTS & CONTENT STYLES
 
 #inner-content {
   position: relative;
-  height: auto; }
+  height: auto;
+  z-index: 50; }
   @media only screen {
     #inner-content {
       width: 274px; } }
@@ -2182,7 +2183,8 @@ POSTS & CONTENT STYLES
   opacity: 0.42;
   position: absolute;
   height: 100%;
-  width: 24px; }
+  width: 24px;
+  z-index: 2; }
 
 .lcars-left {
   top: 0;
@@ -2564,11 +2566,12 @@ FOOTER STYLES
   background-position: center bottom;
   background-repeat: no-repeat;
   height: 57px;
+  left: 0;
   margin: auto 0;
-  position: relative;
-  bottom: 57px;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  z-index: 101; }
+  z-index: 10; }
 
 .footer {
   clear: both;
@@ -2818,8 +2821,7 @@ FOOTER STYLES
 *********************/
   .footer-bg {
     background-image: url("../images/barfleet_footer_481.png");
-    height: 78px;
-    bottom: 78px; }
+    height: 78px; }
   .footer #inner-footer {
     width: 456px;
     margin-left: -228px;
@@ -3011,8 +3013,7 @@ FOOTER STYLES
 *********************/
   .footer-bg {
     background-image: url("../images/barfleet_footer_768.png");
-    height: 128px;
-    bottom: 128px; }
+    height: 128px; }
   .footer #inner-footer {
     width: 750px;
     margin-left: -375px;
@@ -3108,8 +3109,7 @@ be seen on the Desktop.
     width: 72px; }
   .footer-bg {
     background-image: url("../images/barfleet_footer_1030.png");
-    height: 171px;
-    bottom: 171px; }
+    height: 171px; }
   .footer #inner-footer {
     width: 1000px;
     margin-left: -500px;
@@ -3186,8 +3186,7 @@ on larger screens.
     width: 83px; }
   .footer-bg {
     background-image: url("../images/barfleet_footer_1240.png");
-    height: 198px;
-    bottom: 198px; }
+    height: 198px; }
   .footer #inner-footer {
     width: 1156px;
     margin-left: -578px;

@@ -76,3 +76,9 @@
 					<div class="nav-lcars"></div>
 				</div>
 			</nav>
+
+			<div id="content">
+
+				<div class="content-lcars lcars-left"></div>
+				<div id="inner-content" class="wrap cf">
+

@@ -14,63 +14,50 @@
 
 <?php get_header(); ?>
 
-			<div id="content">
+	<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
-				<div id="inner-content" class="wrap cf">
+		<h1 class="archive-title h2"><span><?php _e( 'Posts Categorized:', 'bonestheme' ); ?></span> <?php single_cat_title(); ?></h1>
 
-						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<h1 class="archive-title h2"><span><?php _e( 'Posts Categorized:', 'bonestheme' ); ?></span> <?php single_cat_title(); ?></h1>
+			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+				<header class="article-header">
+					<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+				</header>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+				<section class="entry-content">
+					<?php bones_show_bardate_filed(); ?>
+					<?php the_excerpt( '<span class="read-more">' . __( 'Read More &raquo;', 'bonestheme' ) . '</span>' ); ?>
+				</section>
 
-								<header class="article-header">
+				<footer class="article-footer">
+				</footer>
 
-									<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+			</article>
 
-								</header>
+			<?php endwhile; ?>
 
-								<section class="entry-content">
+			<?php bones_page_navi(); ?>
 
-									<?php bones_show_bardate_filed(); ?>
-									<?php the_excerpt( '<span class="read-more">' . __( 'Read More &raquo;', 'bonestheme' ) . '</span>' ); ?>
+		<?php else : ?>
 
-								</section>
+			<article id="post-not-found" class="hentry cf">
+				<header class="article-header">
+					<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+				</header>
+				<section class="entry-content">
+					<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+				</section>
+				<footer class="article-footer">
+					<p><?php _e( 'This is the error message in the taxonomy-custom_cat.php template.', 'bonestheme' ); ?></p>
+				</footer>
+			</article>
 
-								<footer class="article-footer">
+		<?php endif; ?>
 
-								</footer>
+	</main>
 
-							</article>
-
-							<?php endwhile; ?>
-
-									<?php bones_page_navi(); ?>
-
-							<?php else : ?>
-
-									<article id="post-not-found" class="hentry cf">
-										<header class="article-header">
-											<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-										</header>
-										<section class="entry-content">
-											<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-										</section>
-										<footer class="article-footer">
-												<p><?php _e( 'This is the error message in the taxonomy-custom_cat.php template.', 'bonestheme' ); ?></p>
-										</footer>
-									</article>
-
-							<?php endif; ?>
-
-						</main>
-
-						<?php get_sidebar(); ?>
-
-				</div>
-
-			</div>
+	<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

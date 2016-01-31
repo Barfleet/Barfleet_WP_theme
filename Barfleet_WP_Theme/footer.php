@@ -1,4 +1,9 @@
-			<div class="footer-bg"></div>
+				</div>
+				<div class="content-lcars lcars-right"></div>
+				<div class="footer-bg"></div>
+
+			</div>
+
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
 				<div id="inner-footer" class="wrap cf">

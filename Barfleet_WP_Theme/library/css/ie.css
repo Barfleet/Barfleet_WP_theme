@@ -350,8 +350,7 @@ FOOTER STYLES
 *********************/
 .footer-bg {
   background-image: url("../images/barfleet_footer_481.png");
-  height: 78px;
-  bottom: 78px; }
+  height: 78px; }
 
 .footer #inner-footer {
   width: 456px;
@@ -556,8 +555,7 @@ FOOTER STYLES
 *********************/
 .footer-bg {
   background-image: url("../images/barfleet_footer_768.png");
-  height: 128px;
-  bottom: 128px; }
+  height: 128px; }
 
 .footer #inner-footer {
   width: 750px;
@@ -667,8 +665,7 @@ a.ship-link {
 
 .footer-bg {
   background-image: url("../images/barfleet_footer_1030.png");
-  height: 171px;
-  bottom: 171px; }
+  height: 171px; }
 
 .footer #inner-footer {
   width: 1000px;

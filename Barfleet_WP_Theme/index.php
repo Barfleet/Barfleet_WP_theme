@@ -1,73 +1,58 @@
 <?php get_header(); ?>
 
-	<div id="content">
+	<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
-		<div class="content-lcars lcars-left"></div>
-		<div id="inner-content" class="wrap cf">
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+		<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<header class="article-header">
+				<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+			</header>
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+			<section class="entry-content cf">
+				<div class="inner-entry-content cf">
+					<?php bones_show_bardate_meta(); ?>
 
-					<header class="article-header">
+					<?php the_content(); ?>
+				</div>
+			</section>
 
-						<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-					</header>
+			<footer class="article-footer cf">
+				<p class="footer-comment-count">
+					<?php comments_number( __( '<span>No</span> Comments', 'bonestheme' ), __( '<span>One</span> Comment', 'bonestheme' ), __( '<span>%</span> Comments', 'bonestheme' ) );?>
+				</p>
 
-					<section class="entry-content cf">
-						<div class="inner-entry-content cf">
-							<?php bones_show_bardate_meta(); ?>
+				<?php printf( '<p class="footer-category">' . __('filed under', 'bonestheme' ) . ': %1$s</p>' , get_the_category_list(', ') ); ?>
 
-							<?php the_content(); ?>
-						</div>
-					</section>
+				<?php the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
 
-					<footer class="article-footer cf">
-						<p class="footer-comment-count">
-							<?php comments_number( __( '<span>No</span> Comments', 'bonestheme' ), __( '<span>One</span> Comment', 'bonestheme' ), __( '<span>%</span> Comments', 'bonestheme' ) );?>
-						</p>
+			</footer>
 
+		</article>
 
-     	<?php printf( '<p class="footer-category">' . __('filed under', 'bonestheme' ) . ': %1$s</p>' , get_the_category_list(', ') ); ?>
+		<?php endwhile; ?>
 
-      <?php the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
+			<?php bones_page_navi(); ?>
 
+		<?php else : ?>
 
-					</footer>
+			<article id="post-not-found" class="hentry cf">
+				<header class="article-header">
+					<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
+				</header>
+				<section class="entry-content">
+					<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
+				</section>
+				<footer class="article-footer">
+					<p><?php _e( 'This is the error message in the index.php template.', 'bonestheme' ); ?></p>
+				</footer>
+			</article>
 
-				</article>
+		<?php endif; ?>
 
-				<?php endwhile; ?>
+	</main>
 
-						<?php bones_page_navi(); ?>
-
-				<?php else : ?>
-
-						<article id="post-not-found" class="hentry cf">
-								<header class="article-header">
-									<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-							</header>
-								<section class="entry-content">
-									<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-							</section>
-							<footer class="article-footer">
-									<p><?php _e( 'This is the error message in the index.php template.', 'bonestheme' ); ?></p>
-							</footer>
-						</article>
-
-				<?php endif; ?>
-
-
-			</main>
-
-			<?php get_sidebar(); ?>
-
-		</div>
-		<div class="content-lcars lcars-right"></div>
-
-	</div>
-
+	<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
