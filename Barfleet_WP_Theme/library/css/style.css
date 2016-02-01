@@ -2610,7 +2610,8 @@ view.
 */
 /* end .footer-links */
 .copyright {
-  font-size: 0.75em; }
+  font-size: 0.75em;
+  margin: 0; }
 
 /******************************************************************
 TRIBE EVENT STYLES
