@@ -1169,15 +1169,16 @@ FOOTER STYLES
 }
 .footer {
 	clear: both;
-	// background-color: $black;
-	// color: $light-gray;
 	margin: auto 0;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	z-index: 9;
+	z-index: 100;
 
 	#inner-footer {
+		background-image: url("../images/barfleet_footer_480.png");
+		background-position: center bottom;
+		background-repeat: no-repeat;
 		width: $x480width;
 		position: absolute;
 		bottom: 0;

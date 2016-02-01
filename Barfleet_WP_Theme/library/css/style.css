@@ -2579,8 +2579,11 @@ FOOTER STYLES
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 9; }
+  z-index: 100; }
   .footer #inner-footer {
+    background-image: url("../images/barfleet_footer_480.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
     width: 334px;
     position: absolute;
     bottom: 0;
@@ -2823,6 +2826,7 @@ FOOTER STYLES
     background-image: url("../images/barfleet_footer_481.png");
     height: 78px; }
   .footer #inner-footer {
+    background-image: url("../images/barfleet_footer_481.png");
     width: 456px;
     margin-left: -228px;
     padding: 0 51px; }
@@ -3015,6 +3019,7 @@ FOOTER STYLES
     background-image: url("../images/barfleet_footer_768.png");
     height: 128px; }
   .footer #inner-footer {
+    background-image: url("../images/barfleet_footer_768.png");
     width: 750px;
     margin-left: -375px;
     padding: 0 76px; }
@@ -3111,6 +3116,7 @@ be seen on the Desktop.
     background-image: url("../images/barfleet_footer_1030.png");
     height: 171px; }
   .footer #inner-footer {
+    background-image: url("../images/barfleet_footer_1030.png");
     width: 1000px;
     margin-left: -500px;
     padding: 0 98px; } }
@@ -3188,6 +3194,7 @@ on larger screens.
     background-image: url("../images/barfleet_footer_1240.png");
     height: 198px; }
   .footer #inner-footer {
+    background-image: url("../images/barfleet_footer_1240.png");
     width: 1156px;
     margin-left: -578px;
     padding: 0 111px; } }
