@@ -2273,11 +2273,11 @@ section.entry-content, .outerwidget {
 .entry-content {
   padding: 1.5em 1.5em 0;
   /*
-			image alignment on a screen this size may be
-			a bit difficult. It's set to start aligning
-			and floating images at the next breakpoint,
-			but it's up to you. Feel free to change it up.
-			*/ }
+	image alignment on a screen this size may be
+	a bit difficult. It's set to start aligning
+	and floating images at the next breakpoint,
+	but it's up to you. Feel free to change it up.
+	*/ }
   .entry-content p {
     margin: 0 0 1.5em; }
   .entry-content table {
@@ -2557,6 +2557,11 @@ SIDEBARS & ASIDES
   border: 1px solid #ccc;
   border-radius: 2px;
   margin-bottom: 1.5em; }
+
+input[type=search] {
+  color: #323944;
+  height: 2.0rem;
+  width: 85%; }
 
 /*********************
 FOOTER STYLES
