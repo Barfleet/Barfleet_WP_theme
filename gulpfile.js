@@ -2,7 +2,7 @@
 
 var gulp = require('gulp'),
 	concat = require('gulp-concat'),
-	minifycss = require('gulp-minify-css'),
+	minifycss = require('gulp-cssnano'),
 	rename = require('gulp-rename'),
 	runSequence = require('run-sequence'),
 	sass = require('gulp-sass'),
@@ -20,10 +20,15 @@ var sources = {
 };
 
 gulp.task('build-css', function() {
+	gulp.src('Barfleet_WP_Theme/library/scss/*.scss')
+		.pipe(sass({style: 'compressed'}))
+		.pipe(gulp.dest('Barfleet_WP_Theme/library/css'))
+	;
+
 	return gulp.src('Barfleet_WP_Theme/library/scss/*.scss')
 		.pipe(sass({style: 'compressed'}))
-//		.pipe(rename({suffix: '.min'}))
-//		.pipe(minifycss())
+		.pipe(rename({suffix: '.min'}))
+		.pipe(minifycss())
 		.pipe(gulp.dest('Barfleet_WP_Theme/library/css'))
 	;
 });
