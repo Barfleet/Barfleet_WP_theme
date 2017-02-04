@@ -1,5 +1,5 @@
-					<div class="content-lcars lcars-right"></div>
 				</div>
+				<div class="content-lcars lcars-right"></div>
 				<div class="footer-bg"></div>
 
 			</div>
