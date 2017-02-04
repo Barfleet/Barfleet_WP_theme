@@ -13,7 +13,9 @@ sudo npm install -g gulp
 
 Then cd into the root directory of the git repo and run the following commands:
 
+```
 npm install
 gulp
+```
 
 This will set up a watch task so that any time a scss file is changed and saved, the resulting css files will automatically be generated.

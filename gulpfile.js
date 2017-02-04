@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 	;
 
 var config = {
-	name: 'pcos'
+	name: 'barfleet'
 };
 
 var sources = {
