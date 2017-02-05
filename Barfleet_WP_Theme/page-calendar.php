@@ -23,9 +23,9 @@
 
 			<header class="article-header">
 
-				<h1 class="page-title"><?php the_title(); ?></h1>
+				<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
 
-			</header>
+			</header> <?php // end article header ?>
 
 			<section class="entry-content cf" itemprop="articleBody">
 				<div class="inner-entry-content cf">
@@ -54,11 +54,10 @@
 						) );
 					?>
 				</div>
-			</section>
+			</section> <?php // end article section ?>
 
 
-			<footer class="article-footer">
-				<?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
+			<footer class="article-footer cf">
 			</footer>
 
 			<?php comments_template(); ?>
@@ -74,9 +73,6 @@
 				<section class="entry-content">
 					<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
 				</section>
-				<footer class="article-footer">
-					<p><?php _e( 'This is the error message in the page-custom.php template.', 'bonestheme' ); ?></p>
-				</footer>
 			</article>
 
 		<?php endif; ?>
